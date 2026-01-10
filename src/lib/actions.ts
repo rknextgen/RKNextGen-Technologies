@@ -209,7 +209,7 @@ export const getProjectCategories = cache(async () => {
             select: { category: true },
         });
         const categories = projects.map((p: any) => p.category);
-        return Array.from(new Set(categories));
+        return Array.from(new Set(categories)) as string[];
     } catch (error) {
         console.error('Error fetching project categories:', error);
         return [];
