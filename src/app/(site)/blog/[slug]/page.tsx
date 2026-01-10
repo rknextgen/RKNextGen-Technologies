@@ -269,11 +269,13 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
                                 Let's discuss how RK NextGen Technologies can help you achieve your digital transformation goals.
                             </p>
-                            <Link href="/contact">
-                                <Button glow size="lg">
-                                    Get in Touch
-                                </Button>
-                            </Link>
+                            <div className="flex justify-center">
+                                <Link href="/contact">
+                                    <Button glow size="lg">
+                                        Get in Touch
+                                    </Button>
+                                </Link>
+                            </div>
                         </Card>
                     </div>
                 </Section>
