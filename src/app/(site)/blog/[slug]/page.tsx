@@ -9,6 +9,7 @@ import { Section } from '@/components/ui/Section';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
+import { getBlogBySlug, getPublishedBlogs } from '@/lib/actions';
 
 interface Blog {
     id: string;
@@ -22,57 +23,6 @@ interface Blog {
     image?: string;
     metaTitle?: string;
     metaDescription?: string;
-}
-
-async function getBlogBySlug(slug: string): Promise<Blog | null> {
-    try {
-        // Determine base URL based on environment
-        let baseUrl = '';
-
-        if (typeof window === 'undefined') {
-            // Server-side: determine the base URL
-            baseUrl = process.env.NEXT_PUBLIC_API_URL ||
-                process.env.NEXTAUTH_URL?.replace(/\/$/, '') || // Remove trailing slash from NEXTAUTH_URL
-                (process.env.RENDER ? `https://${process.env.RENDER_EXTERNAL_HOSTNAME}` : '') ||
-                'http://localhost:3000';
-        }
-
-        const response = await fetch(`${baseUrl}/api/blogs/slug/${slug}`, {
-            cache: 'no-store',
-        });
-
-        if (!response.ok) return null;
-        return response.json();
-    } catch (error) {
-        console.error('Error fetching blog:', error);
-        return null;
-    }
-}
-
-async function getRelatedBlogs(category: string, currentSlug: string): Promise<Blog[]> {
-    try {
-        let baseUrl = '';
-
-        if (typeof window === 'undefined') {
-            // Server-side: determine the base URL
-            baseUrl = process.env.NEXT_PUBLIC_API_URL ||
-                process.env.NEXTAUTH_URL?.replace(/\/$/, '') ||
-                (process.env.RENDER ? `https://${process.env.RENDER_EXTERNAL_HOSTNAME}` : '') ||
-                'http://localhost:3000';
-        }
-
-        const response = await fetch(
-            `${baseUrl}/api/blogs?status=PUBLISHED&category=${category}&limit=3`,
-            { cache: 'no-store' }
-        );
-
-        if (!response.ok) return [];
-        const data = await response.json();
-        return (data.blogs || []).filter((blog: Blog) => blog.slug !== currentSlug);
-    } catch (error) {
-        console.error('Error fetching related blogs:', error);
-        return [];
-    }
 }
 
 function calculateReadingTime(content: string): number {
@@ -119,7 +69,9 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
         notFound();
     }
 
-    const relatedBlogs = await getRelatedBlogs(blog.category, blog.slug);
+    const { blogs: allBlogs } = await getPublishedBlogs({ category: blog.category, limit: 4 });
+    const relatedBlogs = allBlogs.filter((b: any) => b.slug !== blog.slug).slice(0, 3);
+
     const readingTime = calculateReadingTime(blog.content);
     const shareUrl = `https://rknextgen.com/blog/${blog.slug}`;
 
@@ -282,7 +234,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
                                     Related <span className="text-cyan">Articles</span>
                                 </h2>
                                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                    {relatedBlogs.map((relatedBlog) => (
+                                    {relatedBlogs.map((relatedBlog: any) => (
                                         <Link key={relatedBlog.id} href={`/blog/${relatedBlog.slug}`}>
                                             <Card className="overflow-hidden h-full group cursor-pointer hover:shadow-[0_0_30px_rgba(0,194,217,0.2)] transition-all">
                                                 {relatedBlog.image && (
