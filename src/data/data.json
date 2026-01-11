@@ -1,1068 +1,1081 @@
 {
-    "User": [
-        {
-            "id": "user1",
-            "email": "admin@example.com",
-            "password": "$2b$10$PVQNRYkU07DgZZcfG7UFAOnkiZaz4EZOdPYIc5ugZG7OzwXERTKRa",
-            "name": "Admin User",
-            "role": "SUPER_ADMIN",
-            "createdAt": "2024-01-01T00:00:00.000Z",
-            "updatedAt": "2024-01-01T00:00:00.000Z"
-        }
-    ],
-    "Blog": [
-        {
-            "id": "blog1",
-            "slug": "future-of-ai-2026",
-            "title": "The Future of AI in 2026",
-            "excerpt": "Exploring the upcoming trends in Artificial Intelligence and their impact on society.",
-            "content": "As we approach 2026, Artificial Intelligence is evolving from a novelty to a fundamental utility. We are witnessing the rise of Generative AI that can create complex content, autonomous agents that can execute multi-step tasks, and AI-driven healthcare diagnostics. This article delves into how these advancements will reshape industries, from personalized education to predictive maintenance in manufacturing, and the ethical considerations we must address.",
-            "category": "Artificial Intelligence",
-            "tags": [
-                "AI",
-                "Tech",
-                "Future"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/ai-future-2026.png",
-            "status": "PUBLISHED",
-            "readTime": "5 min read",
-            "publishedAt": "2024-01-15T10:00:00.000Z",
-            "createdAt": "2024-01-10T10:00:00.000Z",
-            "updatedAt": "2024-01-10T10:00:00.000Z"
-        },
-        {
-            "id": "blog2",
-            "slug": "cloud-computing-benefits",
-            "title": "Why Cloud Computing is Essential",
-            "excerpt": "Unlocking scalability, security, and efficiency by moving your business to the cloud.",
-            "content": "In today's digital-first world, Cloud Computing is no longer optional; it's essential for survival and growth. It offers unparalleled scalability, allowing businesses to expand resources on demand without heavy upfront investment. Beyond cost savings, the cloud provides robust security features, automated backups, and the flexibility for remote work. We explore why migrating to the cloud is the smartest move for modern enterprises.",
-            "category": "Cloud Computing",
-            "tags": [
-                "Cloud",
-                "AWS",
-                "Azure"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/cloud-essential.png",
-            "status": "PUBLISHED",
-            "readTime": "7 min read",
-            "publishedAt": "2024-02-01T10:00:00.000Z",
-            "createdAt": "2024-01-20T10:00:00.000Z",
-            "updatedAt": "2024-01-20T10:00:00.000Z"
-        },
-        {
-            "id": "blog3",
-            "slug": "modern-web-development-trends-2025",
-            "title": "Modern Web Development Trends in 2025",
-            "excerpt": "Discover the latest technologies and frameworks shaping the future of the web.",
-            "content": "The web development landscape is constantly evolving. In 2025, we are seeing a massive shift towards AI-integrated development environments, server-side rendering as the standard with Next.js, and the rise of WebAssembly for high-performance applications. This post explores how these trends are redefining user experiences and developer productivity.",
-            "category": "Web Development",
-            "tags": [
-                "Web",
-                "Next.js",
-                "React"
-            ],
-            "author": "Rakesh Sahu",
-            "image": "/images/blog/web-dev-trends.png",
-            "status": "PUBLISHED",
-            "readTime": "6 min read",
-            "publishedAt": "2025-01-05T10:00:00.000Z",
-            "createdAt": "2025-01-05T10:00:00.000Z",
-            "updatedAt": "2025-01-05T10:00:00.000Z"
-        },
-        {
-            "id": "blog4",
-            "slug": "future-of-mobile-apps",
-            "title": "The Future of Mobile Applications: Cross-Platform & Beyond",
-            "excerpt": "How Flutter and React Native are revolutionizing mobile app development.",
-            "content": "Gone are the days of building separate codebases for iOS and Android. Cross-platform frameworks like Flutter and React Native have reached a level of maturity that offers near-native performance. We discuss the benefits of this approach for businesses looking to launch faster and reach a wider audience.",
-            "category": "Mobile App Development",
-            "tags": [
-                "Mobile",
-                "Flutter",
-                "React Native"
-            ],
-            "author": "Prachi Sahu",
-            "image": "/images/blog/mobile-app-future.png",
-            "status": "PUBLISHED",
-            "readTime": "5 min read",
-            "publishedAt": "2025-01-08T10:00:00.000Z",
-            "createdAt": "2025-01-08T10:00:00.000Z",
-            "updatedAt": "2025-01-08T10:00:00.000Z"
-        },
-        {
-            "id": "blog5",
-            "slug": "ai-revolution-business",
-            "title": "How AI is Revolutionizing Business Automation",
-            "excerpt": "Leveraging Artificial Intelligence to streamline operations and drive growth.",
-            "content": "Artificial Intelligence is no longer just a buzzword; it's a critical business tool. From predictive analytics to intelligent chatbots, AI is automating complex tasks and providing insights that were previously impossible to obtain. Learn how integrating AI into your business processes can give you a competitive edge.",
-            "category": "AI & Machine Learning",
-            "tags": [
-                "AI",
-                "Automation",
-                "Business"
-            ],
-            "author": "Kamlesh Lovewanshi",
-            "image": "/images/blog/ai-revolution.png",
-            "status": "PUBLISHED",
-            "readTime": "8 min read",
-            "publishedAt": "2025-01-10T10:00:00.000Z",
-            "createdAt": "2025-01-10T10:00:00.000Z",
-            "updatedAt": "2025-01-10T10:00:00.000Z"
-        },
-        {
-            "id": "blog6",
-            "slug": "seo-strategies-2025",
-            "title": "Effective SEO Strategies for Digital Growth",
-            "excerpt": "Mastering Search Engine Optimization to boost your online visibility.",
-            "content": "In the digital age, visibility is everything. Effective SEO is not just about keywords; it's about user experience, technical performance, and high-quality content. We break down the essential SEO strategies for 2025 that will help your brand rank higher and attract the right audience.",
-            "category": "SEO & Digital Marketing",
-            "tags": [
-                "SEO",
-                "Marketing",
-                "Growth"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/seo-strategies.png",
-            "status": "PUBLISHED",
-            "readTime": "7 min read",
-            "publishedAt": "2025-01-12T10:00:00.000Z",
-            "createdAt": "2025-01-12T10:00:00.000Z",
-            "updatedAt": "2025-01-12T10:00:00.000Z"
-        },
-        {
-            "id": "blog7",
-            "slug": "impact-of-5g-technology",
-            "title": "The Transformative Impact of 5G Technology",
-            "excerpt": "How 5G is reshaping connectivity and enabling new technological frontiers.",
-            "content": "5G technology is not just about faster internet speeds on mobile phones. It is a fundamental shift in connectivity that enables the Internet of Things (IoT), autonomous vehicles, and smart cities. With ultra-low latency and high bandwidth, 5G is unlocking potential in telemedicine, remote industrial control, and immersive augmented reality experiences. This article explores the broad implications of 5G across various sectors.",
-            "category": "Technology",
-            "tags": [
-                "5G",
-                "Connectivity",
-                "IoT"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/5g-technology.png",
-            "status": "PUBLISHED",
-            "readTime": "6 min read",
-            "publishedAt": "2025-01-15T10:00:00.000Z",
-            "createdAt": "2025-01-15T10:00:00.000Z",
-            "updatedAt": "2025-01-15T10:00:00.000Z"
-        },
-        {
-            "id": "blog8",
-            "slug": "generative-ai-creative-industries",
-            "title": "Generative AI: A New Era for Creative Industries",
-            "excerpt": "Exploring how AI tools are augmenting human creativity in art, design, and writing.",
-            "content": "Generative AI tools like Midjourney, DALL-E, and GPT-4 are revolutionizing the creative landscape. They are not replacing artists but serving as powerful assistants that can generate concepts, draft content, and edit media at unprecedented speeds. We discuss the ethical considerations, the changing role of human creators, and the future of collaboration between humans and machines.",
-            "category": "AI & ML",
-            "tags": [
-                "Generative AI",
-                "Creativity",
-                "Innovation"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/generative-ai.png",
-            "status": "PUBLISHED",
-            "readTime": "8 min read",
-            "publishedAt": "2025-01-18T10:00:00.000Z",
-            "createdAt": "2025-01-18T10:00:00.000Z",
-            "updatedAt": "2025-01-18T10:00:00.000Z"
-        },
-        {
-            "id": "blog9",
-            "slug": "serverless-architecture-explained",
-            "title": "Serverless Architecture: The Future of Cloud Computing?",
-            "excerpt": "Understanding the benefits and use cases of going serverless.",
-            "content": "Serverless computing allows developers to build and run applications without managing servers. It offers automatic scaling, pay-for-value billing, and reduced operational overhead. In this post, we break down what serverless architecture is, its pros and cons, and when it is the right choice for your application.",
-            "category": "Cloud Computing",
-            "tags": [
-                "Serverless",
-                "AWS Lambda",
-                "Cloud"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/serverless.png",
-            "status": "PUBLISHED",
-            "readTime": "7 min read",
-            "publishedAt": "2025-01-20T10:00:00.000Z",
-            "createdAt": "2025-01-20T10:00:00.000Z",
-            "updatedAt": "2025-01-20T10:00:00.000Z"
-        },
-        {
-            "id": "blog10",
-            "slug": "progressive-web-apps-2025",
-            "title": "Why Progressive Web Apps (PWAs) are Still Relevant in 2025",
-            "excerpt": "Combining the best of web and mobile apps for superior user engagement.",
-            "content": "Progressive Web Apps (PWAs) continue to bridge the gap between web and native mobile applications. They offer offline capabilities, push notifications, and fast load times, all accessible through a browser. We analyze why major brands are investing in PWAs and how they can improve your user retention and conversion rates.",
-            "category": "Web Development",
-            "tags": [
-                "PWA",
-                "Web",
-                "Mobile"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/pwa-2025.png",
-            "status": "PUBLISHED",
-            "readTime": "6 min read",
-            "publishedAt": "2025-01-22T10:00:00.000Z",
-            "createdAt": "2025-01-22T10:00:00.000Z",
-            "updatedAt": "2025-01-22T10:00:00.000Z"
-        },
-        {
-            "id": "blog11",
-            "slug": "mobile-app-security-best-practices",
-            "title": "Essential Mobile App Security Best Practices",
-            "excerpt": "Protecting user data and ensuring app integrity in a mobile-first world.",
-            "content": "With the increasing reliance on mobile apps for banking, shopping, and communication, security is paramount. This guide covers essential security practices for mobile app developers, including secure data storage, API authentication, code obfuscation, and regular vulnerability assessments.",
-            "category": "Mobile Apps",
-            "tags": [
-                "Security",
-                "Mobile",
-                "Development"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/mobile-security.png",
-            "status": "PUBLISHED",
-            "readTime": "9 min read",
-            "publishedAt": "2025-01-25T10:00:00.000Z",
-            "createdAt": "2025-01-25T10:00:00.000Z",
-            "updatedAt": "2025-01-25T10:00:00.000Z"
-        },
-        {
-            "id": "blog12",
-            "slug": "devops-culture-shift",
-            "title": "DevOps: It's More Than Just Tools, It's a Culture",
-            "excerpt": "Breaking down silos between development and operations for faster delivery.",
-            "content": "DevOps is often misunderstood as just a set of tools like Jenkins or Docker. However, true DevOps is a cultural shift that emphasizes collaboration, communication, and shared responsibility between software developers and IT operations. We explore the core principles of DevOps and how to foster a successful DevOps culture in your organization.",
-            "category": "DevOps",
-            "tags": [
-                "DevOps",
-                "Culture",
-                "CI/CD"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/devops-culture.png",
-            "status": "PUBLISHED",
-            "readTime": "7 min read",
-            "publishedAt": "2025-01-28T10:00:00.000Z",
-            "createdAt": "2025-01-28T10:00:00.000Z",
-            "updatedAt": "2025-01-28T10:00:00.000Z"
-        },
-        {
-            "id": "blog13",
-            "slug": "cybersecurity-trends-2025",
-            "title": "Top Cybersecurity Trends to Watch in 2025",
-            "excerpt": "Staying ahead of threats in an increasingly digital landscape.",
-            "content": "As cyber threats become more sophisticated, cybersecurity strategies must evolve. In 2025, we are seeing a rise in AI-driven attacks, zero-trust architecture adoption, and increased focus on supply chain security. This article highlights the key trends that organizations need to be aware of to protect their assets and data.",
-            "category": "Cybersecurity",
-            "tags": [
-                "Security",
-                "Trends",
-                "Cybersecurity"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/cybersecurity-trends.png",
-            "status": "PUBLISHED",
-            "readTime": "8 min read",
-            "publishedAt": "2025-01-30T10:00:00.000Z",
-            "createdAt": "2025-01-30T10:00:00.000Z",
-            "updatedAt": "2025-01-30T10:00:00.000Z"
-        },
-        {
-            "id": "blog14",
-            "slug": "voice-search-seo",
-            "title": "Optimizing for Voice Search: The New SEO Frontier",
-            "excerpt": "Adapting your SEO strategy for the rise of voice-activated assistants.",
-            "content": "With the popularity of smart speakers and voice assistants like Siri and Alexa, voice search is changing how people find information. Voice queries are often longer, more conversational, and local-intent driven. We discuss actionable strategies to optimize your content for voice search and capture this growing segment of traffic.",
-            "category": "SEO & Digital Marketing",
-            "tags": [
-                "SEO",
-                "Voice Search",
-                "Marketing"
-            ],
-            "author": "Admin User",
-            "image": "/images/blog/voice-search-seo.png",
-            "status": "PUBLISHED",
-            "readTime": "6 min read",
-            "publishedAt": "2025-02-02T10:00:00.000Z",
-            "createdAt": "2025-02-02T10:00:00.000Z",
-            "updatedAt": "2025-02-02T10:00:00.000Z"
-        }
-    ],
-    "Project": [
-        {
-            "id": "cmiujutwl0001q9s94csxki63",
-            "title": "Godfrey Phillips India – Corporate & Sales Automation System",
-            "slug": "godfrey-phillips-india-corporate-sales-automation-system",
-            "description": "Enterprise corporate website with integrated secondary sales and SFA management systems.",
-            "fullDescription": "Developed a large-scale enterprise corporate website for Godfrey Phillips India with complete integration of secondary sales management and Sales Force Automation (SFA) system. This platform enables real-time dealer sales tracking, territory-wise performance monitoring, automated reporting, and role-based secure access for sales teams and management. The solution significantly improved operational efficiency and data transparency.",
-            "category": "Web",
-            "techStack": [
-                "Python",
-                "Django",
-                "Django Rest Framework",
-                "Celery",
-                "Redis",
-                "Third Party API's",
-                "ERP integration",
-                "Angular",
-                "React.js",
-                "php Laravel"
-            ],
-            "demoUrl": "https://www.godfreyphillips.co.in/",
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": true,
-            "createdAt": "2025-12-06 17:10:28.580",
-            "updatedAt": "2025-12-06 21:11:59.799",
-            "clientName": "Godfrey Phillips India",
-            "industry": "FMCG / Tobacco Manufacturing / Consumer Goods",
-            "problem": "Godfrey Phillips India faced challenges in managing real-time secondary sales data, dealer performance visibility, and field sales operations across multiple regions. Manual reporting, delayed data processing, and lack of centralized control resulted in inefficiencies, limited transparency, and slow decision-making for sales and management teams.",
-            "solution": "We designed and developed a centralized corporate website integrated with a robust Secondary Sales Management System and a full-featured Sales Force Automation (SFA) platform. The solution enables real-time sales tracking, automated report generation, role-based secure access for different user groups, and territory-wise performance monitoring for management and field teams.",
-            "impact": [
-                "Real-time visibility of dealer and secondary sales across all regions.",
-                "Automated reporting reduced manual workload by over 60%.",
-                "Territory-wise performance tracking improved decision-making for management.",
-                "Enhanced field sales productivity through SFA mobile and web access.",
-                "Improved operational efficiency and data accuracy across the sales network."
-            ],
-            "coverImageId": "cmiuqsd1x000bcds9i1dq4t5m",
-            "coverImageUrl": "/images/projects/godfrey-phillips-cover-1765052670736-359624066.png",
-            "galleryImageIds": [
-                "cmiuqs7lf000acds95met60oy"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/godfrey-phillips-thumb-1765052663664-671832717.png"
-            ]
-        },
-        {
-            "id": "cmiuoobgk0001cds9u72spp02",
-            "title": "SIEMCC – Secure Inventory & Stock Management System",
-            "slug": "siemcc-secure-inventory-stock-management-system",
-            "description": "Role-based online inventory, stock tracking, and order management system with real-time reporting.",
-            "fullDescription": "Designed and developed a secure, role-based Inventory Management System for SIEMCC to digitize stock tracking, inventory updates, and order management operations. The platform provides real-time visibility into stock levels, movement history, and order logs. Admin users can manage warehouses, control user access, and generate detailed inventory and operational reports, ensuring higher accuracy, accountability, and operational efficiency.",
-            "category": "Web",
-            "techStack": [
-                "Django",
-                "REST API",
-                "MySQL",
-                "React.js",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Bootstrap 5",
-                "TypeScript",
-                "Angular"
-            ],
-            "demoUrl": "https://login.siemcc.com/",
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": false,
-            "createdAt": "2025-12-06 19:25:22.820",
-            "updatedAt": "2025-12-06 21:00:22.987",
-            "clientName": "NJ interior (SIEMCC)",
-            "industry": "Manufacturing / Supply Chain / Inventory Operations",
-            "problem": "SIEMCC required a centralized and secure system to manage inventory across multiple storage locations. The existing manual and spreadsheet-based processes caused frequent stock mismatches, delayed reporting, limited traceability of inventory movement, and inadequate control over user access.",
-            "solution": "We implemented a web-based, role-driven Inventory Management System that enables real-time stock updates, multi-warehouse tracking, secure user access control, and automated order logging. The platform provides administrators with powerful reporting tools and complete visibility into inventory operations, significantly improving control and data accuracy.",
-            "impact": [
-                "Real-time inventory visibility across all storage locations.",
-                "Reduction in stock mismatch and manual errors.",
-                "Improved audit readiness through detailed order and stock logs.",
-                "Secure role-based access enhanced operational control.",
-                "Faster inventory reporting and decision-making"
-            ],
-            "coverImageId": "cmiuqreft0005cds9j6dps0fj",
-            "coverImageUrl": "/images/projects/siemcc-cover-1765052625875-808116277.png",
-            "galleryImageIds": [
-                "cmiuqreft0005cds9j6dps0fj"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/siemcc-cover-1765052625875-808116277.png"
-            ]
-        },
-        {
-            "id": "cmiuodk3f0000cds9h3ytaexl",
-            "title": "Central Uttar Pradesh Gas Limited (CUGL) – Online Gas Consumer & Operations Management System",
-            "slug": "central-uttar-pradesh-gas-limited-cugl-online-gas-consumer-operations-management-system",
-            "description": "Online gas consumer service portal with secure admin dashboard for customer requests, billing support, and operations management.",
-            "fullDescription": "Developed a complete digital gas consumer management platform for Central Uttar Pradesh Gas Limited (CUGL) with a public-facing website and a secure backend dashboard. The system enables gas consumers to register, submit service requests, access billing-related information, and track application statuses online. The admin panel allows CUGL teams to manage consumers, handle service workflows, monitor operations, and generate reports efficiently, resulting in improved service delivery and transparency.",
-            "category": "Web",
-            "techStack": [
-                "Python",
-                "Django",
-                "Django Rest Framework",
-                "Angular",
-                "React.js",
-                "JavaScript",
-                "AWS Hosting",
-                "Flatter",
-                "Swift"
-            ],
-            "demoUrl": "https://www.cugl.co.in/",
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": false,
-            "createdAt": "2025-12-06 19:17:00.795",
-            "updatedAt": "2025-12-06 21:01:02.289",
-            "clientName": "Central Uttar Pradesh Gas Limited (CUGL)",
-            "industry": "Natural Gas Distribution / Public Utility Services",
-            "problem": "CUGL needed a scalable digital platform to manage a large number of gas consumers, service requests, and operational workflows across multiple districts. Earlier processes involved fragmented systems and manual coordination, leading to delays in customer service, limited real-time visibility, and operational inefficiencies.",
-            "solution": "We built an end-to-end online gas management system with a public consumer portal and a powerful backend administrative dashboard. The solution enables customers to submit requests, track progress, and access services digitally, while CUGL administrators can manage consumers, automate workflows, monitor performance, and generate operational reports in real time.",
-            "impact": [
-                "Digitization of gas consumer services across multiple districts.",
-                "Faster turnaround time for service requests and complaint resolution.",
-                "Centralized operations improved monitoring and reporting accuracy.",
-                "Reduced dependency on manual processes and paperwork.",
-                "Improved customer satisfaction through online self-service capabilities."
-            ],
-            "coverImageId": "cmiuqsjgz000dcds9dmmxt9c1",
-            "coverImageUrl": "/images/projects/cugl-cover-1765052679054-26853020.png",
-            "galleryImageIds": [
-                "cmiuqsgeq000ccds9n7jfu2of"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/cugl-thumb-1765052675087-599695591.png"
-            ]
-        },
-        {
-            "id": "cmium3xca0002q9s9cr540d0d",
-            "title": "Maharashtra Natural Gas Limited – Online Service Management Platform",
-            "slug": "maharashtra-natural-gas-limited-online-service-management-platform",
-            "description": "Customer service and backend management platform for MNGL gas services.",
-            "fullDescription": "Designed and developed a scalable online customer service portal for Mahanagar Gas Limited. The platform allows customers to access gas services, submit service requests, and manage their accounts, while the backend dashboard enables administrators to manage service workflows, customers, and system reports securely.",
-            "category": "Web",
-            "techStack": [
-                "Python",
-                "Django Rest Framework",
-                "MySQL Database",
-                "Angular",
-                "JavaScript",
-                "Bootstrap 5"
-            ],
-            "demoUrl": "https://mngl.in/",
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": false,
-            "createdAt": "2025-12-06 18:13:32.170",
-            "updatedAt": "2025-12-06 21:01:25.279",
-            "clientName": "Maharashtra Natural Gas Limited",
-            "industry": "Natural Gas Distribution / Utility Services",
-            "problem": "MNGL required a centralized digital platform to manage large volumes of customer service requests, gas connection applications, and operational workflows. Existing processes were largely manual, resulting in delayed responses, inefficient tracking of service requests, and limited visibility into real-time operational performance.",
-            "solution": "We designed and deployed a fully digital online service portal integrated with a secure backend operations dashboard. Customers can easily submit service requests, track their application progress, and manage their accounts online. The MNGL operations team can efficiently manage requests, automate workflows, and monitor service performance in real time through the admin panel.",
-            "impact": [
-                "Digitized customer service operations resulting in faster request processing.",
-                "Improved transparency for customers through real-time request tracking.",
-                "Reduced manual workload for operations teams by over 50%.",
-                "Centralized data management improved reporting accuracy.",
-                "Enhanced overall customer experience and service efficiency."
-            ],
-            "coverImageId": "cmiuqrsyi0008cds9h9d48z07",
-            "coverImageUrl": "/images/projects/mngl-cover-1765052644693-782793338.png",
-            "galleryImageIds": [
-                "cmiuqrmf60007cds991vdzfxj"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/mngl-thumb-1765052636223-581291634.png"
-            ]
-        },
-        {
-            "id": "cmiuprx6x0004cds9xhnoxona",
-            "title": "Hajela IAS – OCR-Based PDF & Test Automation System",
-            "slug": "hajela-ias-ocr-based-pdf-test-automation-system",
-            "description": "OCR-based automation system to convert PDFs and digital books into Excel for online test creation and ClassPlus integration.",
-            "fullDescription": "Developed a complete OCR-based automation solution for Hajela IAS that converts PDF files and digital books into structured Excel format. This extracted data is then automatically uploaded to the Hajela IAS Online Test Portal and the ClassPlus application for fast and accurate test creation. The system dramatically reduced manual data entry efforts and enabled large-scale digital test generation for UPSC/IAS preparation.",
-            "category": "Automation",
-            "techStack": [
-                "Python",
-                "Tesseract OCR",
-                "pypdf",
-                "ReportLab",
-                "PyMuPDF",
-                "Pandas",
-                "NumPy",
-                "Django",
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "Bootstrap"
-            ],
-            "demoUrl": "https://hajelaias.com/",
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": true,
-            "createdAt": "2025-12-06 19:56:10.568",
-            "updatedAt": "2025-12-06 20:57:52.725",
-            "clientName": "Hajela IAS Academy",
-            "industry": "Education / UPSC & Competitive Exam Training (EdTech)",
-            "problem": "Hajela IAS required a fast, accurate, and scalable way to convert large volumes of PDF question banks and digital study material into a structured format for online testing. Manual data entry was time-consuming, error-prone, and not suitable for handling thousands of questions across multiple subjects.",
-            "solution": "We built an OCR-based automation system using Python and Tesseract that processes PDFs and digital books, intelligently extracts text, structures the data into Excel format, and automatically integrates it with the Hajela IAS Test Portal and ClassPlus platform. This enabled instant digital test creation with high accuracy and zero manual intervention.",
-            "impact": [
-                "Automated conversion of thousands of PDF questions into Excel format.",
-                "Reduced manual data entry workload by over 80%.",
-                "Faster online test creation and publishing.",
-                "Seamless integration with ClassPlus and the Hajela IAS Test Portal.",
-                "Improved accuracy and consistency of digital question banks."
-            ],
-            "coverImageId": "cmiuqrxci0009cds9z57o4gqh",
-            "coverImageUrl": "/images/projects/hajela-ias-cover-1765052650381-334224232.png",
-            "galleryImageIds": [
-                "cmiuqrxci0009cds9z57o4gqh"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/hajela-ias-cover-1765052650381-334224232.png"
-            ]
-        },
-        {
-            "id": "cmiupeuis0003cds93yx8oxrw",
-            "title": "AI-Based Safety Measure Detection System",
-            "slug": "ai-based-safety-measure-detection-system",
-            "description": "Deep learning-powered computer vision system to automatically detect helmets, masks, and safety gear in real-time environments.",
-            "fullDescription": "Developed an advanced deep learning and computer vision-based safety compliance system that automatically detects the presence of safety equipment such as helmets, face masks, and protective gear in industrial and construction environments. The system processes live camera feeds and identifies whether safety protocols are being followed. Non-compliance events are logged and can trigger real-time alerts for supervisors, improving workplace safety and regulatory adherence.",
-            "category": "AI",
-            "techStack": [
-                "Python",
-                "OpenCV",
-                "Ultralytics YOLO",
-                "TensorFlow",
-                "Scikit-learn",
-                "Machine Learning"
-            ],
-            "demoUrl": null,
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": true,
-            "createdAt": "2025-12-06 19:46:00.580",
-            "updatedAt": "2025-12-06 20:59:09.774",
-            "clientName": "Industrial Safety & Compliance Project (Enterprise Client - Toyota)",
-            "industry": "Manufacturing / Construction / Industrial Safety",
-            "problem": "Industrial and construction environments frequently face safety compliance challenges due to the manual monitoring of workers using CCTV cameras. Human supervision alone is not scalable and often fails to detect safety violations in real time, leading to increased accident risks and regulatory non-compliance.",
-            "solution": "We implemented a real-time AI-based computer vision system using deep learning models to automatically detect helmets, masks, and safety gear from live camera feeds. The system continuously monitors multiple camera streams, identifies safety violations, logs non-compliance events, and can trigger instant alerts to supervisors for immediate corrective action.",
-            "impact": [
-                "Real-time detection of safety gear violations across multiple camera feeds.",
-                "Reduced workplace accident risk through proactive monitoring.",
-                "Improved regulatory compliance and audit readiness.",
-                "Scalable monitoring solution without increasing manpower.",
-                "Enhanced overall safety culture within industrial environments."
-            ],
-            "coverImageId": "cmiuqsncr000ecds9vqxqmbz3",
-            "coverImageUrl": "/images/projects/ai-safety-cover-1765052684087-651198517.png",
-            "galleryImageIds": [
-                "cmiuqsncr000ecds9vqxqmbz3"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/ai-safety-cover-1765052684087-651198517.png"
-            ]
-        },
-        {
-            "id": "cmiuoyesr0002cds9wpgk69w1",
-            "title": "PVR Cinemas – AI-Based Popcorn Fraud Detection System",
-            "slug": "pvr-cinemas-ai-based-popcorn-fraud-detection-system",
-            "description": "Machine learning-powered computer vision system to detect popcorn quantity fraud at cinema counters in real time.",
-            "fullDescription": "Developed a Proof-of-Concept (POC) machine learning and computer vision-based system for PVR Cinemas to automatically detect popcorn quantity fraud at cinema snack counters. The system uses camera feeds and deep learning models to identify discrepancies between expected and actual popcorn quantities dispensed. The solution helps reduce revenue leakage, improves operational transparency, and enables real-time fraud monitoring through an admin dashboard.",
-            "category": "AI",
-            "techStack": [
-                "Python",
-                "Deep Learning",
-                "OpenCV",
-                "TensorFlow",
-                "Machine Learning",
-                "Angular",
-                "Html",
-                "JavaScript"
-            ],
-            "demoUrl": "https://demo.triazinesoft.com/trizo_admin/",
-            "githubUrl": "https://github.com/RKNextGen-Technologies",
-            "featured": true,
-            "createdAt": "2025-12-06 19:33:13.706",
-            "updatedAt": "2025-12-06 20:59:37.630",
-            "clientName": "PVR Cinemas (POC Project)",
-            "industry": "Entertainment / Cinema / Food & Beverage Operations",
-            "problem": "PVR cinema counters faced challenges in controlling and monitoring popcorn quantity dispensing, which sometimes led to intentional or unintentional revenue leakage. Manual supervision was inconsistent and did not provide accurate, real-time validation of quantity-based sales.",
-            "solution": "We developed an AI-powered computer vision system that uses live camera feeds and deep learning models to automatically detect and validate the quantity of popcorn being dispensed. The system flags discrepancies in real time and provides administrators with a web-based dashboard to monitor operations and potential fraud events.",
-            "impact": [
-                "Automated detection of popcorn quantity discrepancies in real time.",
-                "Significant reduction in potential revenue leakage.",
-                "Improved transparency and accountability at snack counters.",
-                "Reduced dependence on manual supervision.",
-                "Proof of feasibility for wider AI-driven retail fraud detection."
-            ],
-            "coverImageId": "cmiuqrj6o0006cds96qw14cso",
-            "coverImageUrl": "/images/projects/pvr-ai-cover-1765052632028-326583399.png",
-            "galleryImageIds": [
-                "cmiuqrj6o0006cds96qw14cso"
-            ],
-            "galleryImageUrls": [
-                "/images/projects/pvr-ai-cover-1765052632028-326583399.png"
-            ]
-        }
-    ],
-    "CaseStudy": [],
-    "Testimonial": [
-        {
-            "id": "test1",
-            "clientName": "Sarah Johnson",
-            "company": "InnovateFin",
-            "photo": "/images/clients/user.png",
-            "rating": 5,
-            "text": "RK NextGen transformed our legacy financial systems into a modern, cloud-native architecture. Their expertise in AI also helped us automate fraud detection, saving us millions.",
-            "featured": true,
-            "createdAt": "2025-02-15T00:00:00.000Z",
-            "updatedAt": "2025-02-15T00:00:00.000Z"
-        },
-        {
-            "id": "test2",
-            "clientName": "Michael Chen",
-            "company": "HealthTech Solutions",
-            "photo": "/images/clients/user.png",
-            "rating": 5,
-            "text": "The team delivered an exceptional mobile app for our patient monitoring system. The UI is intuitive, and the backend is incredibly robust. Highly recommended for healthcare IT projects.",
-            "featured": true,
-            "createdAt": "2025-02-10T00:00:00.000Z",
-            "updatedAt": "2025-02-10T00:00:00.000Z"
-        },
-        {
-            "id": "test3",
-            "clientName": "Priya Sharma",
-            "company": "EduLearn",
-            "photo": "/images/clients/user.png",
-            "rating": 5,
-            "text": "We needed a scalable e-learning platform, and RK NextGen delivered beyond our expectations. Their attention to detail and commitment to quality code is impressive.",
-            "featured": true,
-            "createdAt": "2025-01-28T00:00:00.000Z",
-            "updatedAt": "2025-01-28T00:00:00.000Z"
-        },
-        {
-            "id": "test4",
-            "clientName": "David Miller",
-            "company": "LogisticsPro",
-            "photo": "/images/clients/user.png",
-            "rating": 4,
-            "text": "Their custom ERP solution streamlined our supply chain operations significantly. The real-time analytics dashboard gives us insights we never had before.",
-            "featured": true,
-            "createdAt": "2025-01-15T00:00:00.000Z",
-            "updatedAt": "2025-01-15T00:00:00.000Z"
-        }
-    ],
-    "TeamMember": [
-        {
-            "id": "kamlesh-lovewanshi",
-            "name": "Kamlesh Lovewanshi",
-            "role": "Founder & CEO",
-            "bio": "Kamlesh Lovewanshi is the Founder & CEO of RK NextGen Technologies, a forward-thinking IT company focused on delivering innovative digital solutions. With strong expertise in software development, web technologies, and business strategy, he leads the company with a clear vision of empowering businesses through technology. His passion for innovation, quality execution, and client success drives the growth and culture of RK NextGen Technologies.",
-            "photo": "/images/teams/kamlesh.jpg",
-            "linkedIn": "https://www.linkedin.com/in/kamlesh-lovewanshi/",
-            "github": "https://github.com/RKNextGen-Technologies",
-            "order": 1
-        },
-        {
-            "id": "manoj-lovewanshi",
-            "name": "Manoj Lovewanshi",
-            "role": "Chief Strategy & Execution Officer",
-            "bio": "Manoj Lovewanshi is the Chief Strategy & Operations Officer at RK NextGen Technologies and a core pillar of the company’s execution engine. Known for his powerful leadership, decision-making ability, and operational control, he ensures that company strategies are transformed into real-world results. He plays a critical role in high-priority projects, team performance management, and overall business execution. His leadership strength, discipline, and reliability make him a key force behind the company’s success.",
-            "linkedIn": "#",
-            "github": "https://github.com/RKNextGen-Technologies",
-            "photo": "/images/teams/Manoj.jpg",
-            "order": 2
-        },
-        {
-            "id": "prachi-sahu",
-            "name": "Prachi Sahu",
-            "role": "Mobile and iOS Application Developer",
-            "bio": "Prachi Sahu is the Mobile and iOS Application Developer at RK NextGen Technologies, specializing in building high-performance mobile applications. With expertise in both iOS and Android platforms, she creates seamless and engaging mobile experiences. Her focus on code quality and user-centric design ensures that every app delivers exceptional value to users.",
-            "linkedIn": "https://www.linkedin.com/in/prachi-sahu-1a0119201/",
-            "github": "https://github.com/RKNextGen-Technologies",
-            "photo": "/images/teams/Prachi.jpg",
-            "order": 4
-        },
-        {
-            "id": "neelam-jounjare",
-            "name": "Neelam Jounjare",
-            "role": "Human Resources Manager",
-            "bio": "Neelam Jounjare is the HR Manager at RK NextGen Technologies, responsible for building a strong people-first culture within the organization. She oversees talent acquisition, employee engagement, training & development, performance management, and HR compliance. With a people-centric approach and strong organizational skills, she ensures a positive, productive, and professional work environment that supports both employee growth and company success.",
-            "linkedIn": "https://www.linkedin.com/in/neelam-jounjare-6a3072272/",
-            "github": "https://github.com/RKNextGen-Technologies",
-            "photo": "/images/teams/Neelam.jpg",
-            "order": 3
-        },
-        {
-            "id": "rakesh-sahu",
-            "name": "Rakesh Sahu",
-            "role": "Fullstack Developer",
-            "bio": "Rakesh Sahu is the Fullstack Developer at RK NextGen Technologies, responsible for leading the company’s technical vision, development processes, and engineering teams. With strong expertise in software architecture, modern web technologies, and project execution, he ensures that all technical solutions are scalable, secure, and high-performing. His leadership bridges the gap between business requirements and technical implementation, driving innovation and delivery excellence.",
-            "linkedIn": "https://www.linkedin.com/in/rakesh-sahu-1201/",
-            "github": "https://github.com/RKNextGen-Technologies",
-            "photo": "/images/teams/Rakesh.jpg",
-            "order": 5
-        },
-        {
-            "id": "dipti-gautam",
-            "name": "Dipti Gautam",
-            "role": "Frontend and UI/UX Developer",
-            "bio": "Dipti Gautam is the Frontend and UI/UX Developer at RK NextGen Technologies, specializing in creating intuitive and visually appealing user interfaces. With a strong focus on user experience and design principles, she ensures that every product is both functional and beautiful, delivering an excellent user experience.",
-            "linkedIn": "https://www.linkedin.com/in/dipti-gautam-46a669244/",
-            "github": "https://github.com/RKNextGen-Technologies",
-            "photo": "/images/teams/Dipti.jpg",
-            "order": 6
-        }
-    ],
-    "Job": [],
-    "Application": [],
-    "Lead": [
-        {
-            "id": "zgimiknbk",
-            "createdAt": "2026-01-10T16:30:43.382Z",
-            "updatedAt": "2026-01-10T16:30:43.382Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "admin@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        },
-        {
-            "id": "rm6vtl5p4",
-            "createdAt": "2026-01-10T16:34:47.510Z",
-            "updatedAt": "2026-01-10T16:34:47.510Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "admin@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        },
-        {
-            "id": "u387y9exd",
-            "createdAt": "2026-01-10T16:38:10.794Z",
-            "updatedAt": "2026-01-10T16:38:10.794Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "admin@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        },
-        {
-            "id": "3o6rglke6",
-            "createdAt": "2026-01-10T16:44:34.188Z",
-            "updatedAt": "2026-01-10T16:44:34.188Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "kamleshlovewanshi2000@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        },
-        {
-            "id": "oq6g29x3b",
-            "createdAt": "2026-01-10T16:48:44.514Z",
-            "updatedAt": "2026-01-10T16:48:44.514Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "kamleshlovewanshi2000@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        },
-        {
-            "id": "lfc691vvl",
-            "createdAt": "2026-01-10T16:51:28.273Z",
-            "updatedAt": "2026-01-10T16:51:28.273Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "admin@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        },
-        {
-            "id": "470nkwkdt",
-            "createdAt": "2026-01-10T16:52:22.325Z",
-            "updatedAt": "2026-01-10T16:52:22.325Z",
-            "name": "Kamlesh Lovewanshi",
-            "email": "kamleshlovewanshi2000@gmail.com",
-            "phone": "7877676767",
-            "company": "test",
-            "message": "Sector 62",
-            "type": "CONTACT",
-            "status": "NEW",
-            "isRead": false
-        }
-    ],
-    "Media": [],
-    "Settings": [
-        {
-            "id": "main",
-            "companyName": "RK NextGen Technologies",
-            "tagline": "Empowering businesses with next-generation AI, Cloud, and Software solutions.",
-            "email": "info.rknextgen@gmail.com",
-            "phone": "+91 8823857525",
-            "socialLinks": "{\"github\": \"https://github.com/rknextgen\", \"twitter\": \"https://x.com/RkNextgenTech?t=u5yRz8SREAqmEWFGhr9drg&s=09\", \"facebook\": \"https://www.facebook.com/profile.php?id=61584372557654\", \"linkedin\": \"https://www.linkedin.com/company/rk-nextgen-technologies\", \"instagram\": \"https://www.instagram.com/rknextgen_technologies?igsh=a215ZzdpbWJyMzRt\"}",
-            "primaryColor": "#00C2D9",
-            "accentColor": "#8A2BE2",
-            "darkMode": true,
-            "animations": true,
-            "updatedAt": "2024-01-01T00:00:00.000Z"
-        }
-    ],
-    "PageSEO": [
-        {
-            "id": "home",
-            "metaTitle": "Home | RK NextGen Technologies",
-            "metaDesc": "Leading the future of digital transformation with AI, Cloud, and Next-Gen Software Solutions.",
-            "ogImage": "/images/og/home.png"
-        },
-        {
-            "id": "about",
-            "metaTitle": "About Us | RK NextGen Technologies",
-            "metaDesc": "Learn about our mission, vision, and the team driving innovation at RK NextGen Technologies.",
-            "ogImage": "/images/og/about.png"
-        },
-        {
-            "id": "services",
-            "metaTitle": "Services | RK NextGen Technologies",
-            "metaDesc": "Explore our comprehensive range of services including AI, Cloud Computing, Web Development, and more.",
-            "ogImage": "/images/og/services.png"
-        },
-        {
-            "id": "projects",
-            "metaTitle": "Projects | RK NextGen Technologies",
-            "metaDesc": "Discover our portfolio of successful projects and case studies across various industries.",
-            "ogImage": "/images/og/projects.png"
-        },
-        {
-            "id": "blog",
-            "metaTitle": "Blog | RK NextGen Technologies",
-            "metaDesc": "Stay updated with the latest trends in technology, AI, and software development.",
-            "ogImage": "/images/og/blog.png"
-        },
-        {
-            "id": "careers",
-            "metaTitle": "Careers | RK NextGen Technologies",
-            "metaDesc": "Join our team of innovators and help shape the future of technology.",
-            "ogImage": "/images/og/careers.png"
-        },
-        {
-            "id": "contact",
-            "metaTitle": "Contact Us | RK NextGen Technologies",
-            "metaDesc": "Get in touch with us for your next project or any inquiries.",
-            "ogImage": "/images/og/contact.png"
-        }
-    ],
-    "LegalPage": [
-        {
-            "id": "privacy-policy",
-            "title": "Privacy Policy",
-            "content": "<h2>1. Introduction</h2><p>Welcome to RK NextGen Technologies. We respect your privacy and are committed to protecting your personal data.</p><h2>2. Data We Collect</h2><p>We may collect personal information such as your name, email address, and phone number when you contact us.</p><h2>3. How We Use Your Data</h2><p>We use your data to provide and improve our services, communicate with you, and comply with legal obligations.</p>",
-            "updatedAt": "2025-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "terms-of-service",
-            "title": "Terms of Service",
-            "content": "<h2>1. Acceptance of Terms</h2><p>By accessing and using our website, you agree to comply with and be bound by these Terms of Service.</p><h2>2. Use of Services</h2><p>You agree to use our services only for lawful purposes and in accordance with these terms.</p><h2>3. Intellectual Property</h2><p>All content on this website is the property of RK NextGen Technologies and is protected by copyright laws.</p>",
-            "updatedAt": "2025-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "cookie-policy",
-            "title": "Cookie Policy",
-            "content": "<h2>1. What are Cookies?</h2><p>Cookies are small text files stored on your device when you visit a website.</p><h2>2. How We Use Cookies</h2><p>We use cookies to analyze website traffic and improve your user experience.</p><h2>3. Managing Cookies</h2><p>You can control and manage cookies through your browser settings.</p>",
-            "updatedAt": "2025-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "disclaimer",
-            "title": "Disclaimer",
-            "content": "<h2>1. General Disclaimer</h2><p>The information provided on this website is for general informational purposes only.</p><h2>2. No Warranty</h2><p>We make no warranties, expressed or implied, regarding the accuracy or completeness of the information.</p>",
-            "updatedAt": "2025-01-01T00:00:00.000Z"
-        }
-    ],
-    "PageView": [
-        {
-            "id": "pv1",
-            "page": "/",
-            "count": 150,
-            "date": "2026-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "pv2",
-            "page": "/about",
-            "count": 45,
-            "date": "2026-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "pv3",
-            "page": "/services",
-            "count": 80,
-            "date": "2026-01-01T00:00:00.000Z"
-        },
-        {
-            "id": "pv4",
-            "page": "/",
-            "count": 165,
-            "date": "2026-01-02T00:00:00.000Z"
-        },
-        {
-            "id": "pv5",
-            "page": "/blog",
-            "count": 120,
-            "date": "2026-01-02T00:00:00.000Z"
-        },
-        {
-            "id": "pv6",
-            "page": "/contact",
-            "count": 30,
-            "date": "2026-01-02T00:00:00.000Z"
-        },
-        {
-            "id": "pv7",
-            "page": "/",
-            "count": 180,
-            "date": "2026-01-03T00:00:00.000Z"
-        },
-        {
-            "id": "pv8",
-            "page": "/projects",
-            "count": 95,
-            "date": "2026-01-03T00:00:00.000Z"
-        },
-        {
-            "id": "pv9",
-            "page": "/careers",
-            "count": 50,
-            "date": "2026-01-03T00:00:00.000Z"
-        },
-        {
-            "id": "pv10",
-            "page": "/",
-            "count": 200,
-            "date": "2026-01-04T00:00:00.000Z"
-        },
-        {
-            "id": "pv11",
-            "page": "/about",
-            "count": 60,
-            "date": "2026-01-04T00:00:00.000Z"
-        },
-        {
-            "id": "pv12",
-            "page": "/services",
-            "count": 90,
-            "date": "2026-01-04T00:00:00.000Z"
-        },
-        {
-            "id": "pv13",
-            "page": "/",
-            "count": 190,
-            "date": "2026-01-05T00:00:00.000Z"
-        },
-        {
-            "id": "pv14",
-            "page": "/blog",
-            "count": 140,
-            "date": "2026-01-05T00:00:00.000Z"
-        },
-        {
-            "id": "pv15",
-            "page": "/contact",
-            "count": 40,
-            "date": "2026-01-05T00:00:00.000Z"
-        },
-        {
-            "id": "pv16",
-            "page": "/",
-            "count": 210,
-            "date": "2026-01-06T00:00:00.000Z"
-        },
-        {
-            "id": "pv17",
-            "page": "/projects",
-            "count": 110,
-            "date": "2026-01-06T00:00:00.000Z"
-        },
-        {
-            "id": "pv18",
-            "page": "/careers",
-            "count": 55,
-            "date": "2026-01-06T00:00:00.000Z"
-        },
-        {
-            "id": "pv19",
-            "page": "/",
-            "count": 220,
-            "date": "2026-01-07T00:00:00.000Z"
-        },
-        {
-            "id": "pv20",
-            "page": "/about",
-            "count": 70,
-            "date": "2026-01-07T00:00:00.000Z"
-        },
-        {
-            "id": "pv21",
-            "page": "/services",
-            "count": 100,
-            "date": "2026-01-07T00:00:00.000Z"
-        },
-        {
-            "id": "pv22",
-            "page": "/",
-            "count": 230,
-            "date": "2026-01-08T00:00:00.000Z"
-        },
-        {
-            "id": "pv23",
-            "page": "/blog",
-            "count": 160,
-            "date": "2026-01-08T00:00:00.000Z"
-        },
-        {
-            "id": "pv24",
-            "page": "/contact",
-            "count": 50,
-            "date": "2026-01-08T00:00:00.000Z"
-        },
-        {
-            "id": "pv25",
-            "page": "/",
-            "count": 250,
-            "date": "2026-01-09T00:00:00.000Z"
-        },
-        {
-            "id": "pv26",
-            "page": "/projects",
-            "count": 120,
-            "date": "2026-01-09T00:00:00.000Z"
-        },
-        {
-            "id": "pv27",
-            "page": "/careers",
-            "count": 60,
-            "date": "2026-01-09T00:00:00.000Z"
-        },
-        {
-            "id": "pv28",
-            "page": "/",
-            "count": 270,
-            "date": "2026-01-10T00:00:00.000Z"
-        },
-        {
-            "id": "pv29",
-            "page": "/about",
-            "count": 80,
-            "date": "2026-01-10T00:00:00.000Z"
-        },
-        {
-            "id": "pv30",
-            "page": "/services",
-            "count": 110,
-            "date": "2026-01-10T00:00:00.000Z"
-        }
-    ]
+  "User": [
+    {
+      "id": "user1",
+      "email": "admin@example.com",
+      "password": "$2b$10$PVQNRYkU07DgZZcfG7UFAOnkiZaz4EZOdPYIc5ugZG7OzwXERTKRa",
+      "name": "Admin User",
+      "role": "SUPER_ADMIN",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "Blog": [
+    {
+      "id": "blog1",
+      "slug": "future-of-ai-2026",
+      "title": "The Future of AI in 2026",
+      "excerpt": "Exploring the upcoming trends in Artificial Intelligence and their impact on society.",
+      "content": "As we approach 2026, Artificial Intelligence is evolving from a novelty to a fundamental utility. We are witnessing the rise of Generative AI that can create complex content, autonomous agents that can execute multi-step tasks, and AI-driven healthcare diagnostics. This article delves into how these advancements will reshape industries, from personalized education to predictive maintenance in manufacturing, and the ethical considerations we must address.",
+      "category": "Artificial Intelligence",
+      "tags": [
+        "AI",
+        "Tech",
+        "Future"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/ai-future-2026.png",
+      "status": "PUBLISHED",
+      "readTime": "5 min read",
+      "publishedAt": "2024-01-15T10:00:00.000Z",
+      "createdAt": "2024-01-10T10:00:00.000Z",
+      "updatedAt": "2024-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "blog2",
+      "slug": "cloud-computing-benefits",
+      "title": "Why Cloud Computing is Essential",
+      "excerpt": "Unlocking scalability, security, and efficiency by moving your business to the cloud.",
+      "content": "In today's digital-first world, Cloud Computing is no longer optional; it's essential for survival and growth. It offers unparalleled scalability, allowing businesses to expand resources on demand without heavy upfront investment. Beyond cost savings, the cloud provides robust security features, automated backups, and the flexibility for remote work. We explore why migrating to the cloud is the smartest move for modern enterprises.",
+      "category": "Cloud Computing",
+      "tags": [
+        "Cloud",
+        "AWS",
+        "Azure"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/cloud-essential.png",
+      "status": "PUBLISHED",
+      "readTime": "7 min read",
+      "publishedAt": "2024-02-01T10:00:00.000Z",
+      "createdAt": "2024-01-20T10:00:00.000Z",
+      "updatedAt": "2024-01-20T10:00:00.000Z"
+    },
+    {
+      "id": "blog3",
+      "slug": "modern-web-development-trends-2025",
+      "title": "Modern Web Development Trends in 2025",
+      "excerpt": "Discover the latest technologies and frameworks shaping the future of the web.",
+      "content": "The web development landscape is constantly evolving. In 2025, we are seeing a massive shift towards AI-integrated development environments, server-side rendering as the standard with Next.js, and the rise of WebAssembly for high-performance applications. This post explores how these trends are redefining user experiences and developer productivity.",
+      "category": "Web Development",
+      "tags": [
+        "Web",
+        "Next.js",
+        "React"
+      ],
+      "author": "Rakesh Sahu",
+      "image": "/images/blog/web-dev-trends.png",
+      "status": "PUBLISHED",
+      "readTime": "6 min read",
+      "publishedAt": "2025-01-05T10:00:00.000Z",
+      "createdAt": "2025-01-05T10:00:00.000Z",
+      "updatedAt": "2025-01-05T10:00:00.000Z"
+    },
+    {
+      "id": "blog4",
+      "slug": "future-of-mobile-apps",
+      "title": "The Future of Mobile Applications: Cross-Platform & Beyond",
+      "excerpt": "How Flutter and React Native are revolutionizing mobile app development.",
+      "content": "Gone are the days of building separate codebases for iOS and Android. Cross-platform frameworks like Flutter and React Native have reached a level of maturity that offers near-native performance. We discuss the benefits of this approach for businesses looking to launch faster and reach a wider audience.",
+      "category": "Mobile App Development",
+      "tags": [
+        "Mobile",
+        "Flutter",
+        "React Native"
+      ],
+      "author": "Prachi Sahu",
+      "image": "/images/blog/mobile-app-future.png",
+      "status": "PUBLISHED",
+      "readTime": "5 min read",
+      "publishedAt": "2025-01-08T10:00:00.000Z",
+      "createdAt": "2025-01-08T10:00:00.000Z",
+      "updatedAt": "2025-01-08T10:00:00.000Z"
+    },
+    {
+      "id": "blog5",
+      "slug": "ai-revolution-business",
+      "title": "How AI is Revolutionizing Business Automation",
+      "excerpt": "Leveraging Artificial Intelligence to streamline operations and drive growth.",
+      "content": "Artificial Intelligence is no longer just a buzzword; it's a critical business tool. From predictive analytics to intelligent chatbots, AI is automating complex tasks and providing insights that were previously impossible to obtain. Learn how integrating AI into your business processes can give you a competitive edge.",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Automation",
+        "Business"
+      ],
+      "author": "Kamlesh Lovewanshi",
+      "image": "/images/blog/ai-revolution.png",
+      "status": "PUBLISHED",
+      "readTime": "8 min read",
+      "publishedAt": "2025-01-10T10:00:00.000Z",
+      "createdAt": "2025-01-10T10:00:00.000Z",
+      "updatedAt": "2025-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "blog6",
+      "slug": "seo-strategies-2025",
+      "title": "Effective SEO Strategies for Digital Growth",
+      "excerpt": "Mastering Search Engine Optimization to boost your online visibility.",
+      "content": "In the digital age, visibility is everything. Effective SEO is not just about keywords; it's about user experience, technical performance, and high-quality content. We break down the essential SEO strategies for 2025 that will help your brand rank higher and attract the right audience.",
+      "category": "SEO & Digital Marketing",
+      "tags": [
+        "SEO",
+        "Marketing",
+        "Growth"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/seo-strategies.png",
+      "status": "PUBLISHED",
+      "readTime": "7 min read",
+      "publishedAt": "2025-01-12T10:00:00.000Z",
+      "createdAt": "2025-01-12T10:00:00.000Z",
+      "updatedAt": "2025-01-12T10:00:00.000Z"
+    },
+    {
+      "id": "blog7",
+      "slug": "impact-of-5g-technology",
+      "title": "The Transformative Impact of 5G Technology",
+      "excerpt": "How 5G is reshaping connectivity and enabling new technological frontiers.",
+      "content": "5G technology is not just about faster internet speeds on mobile phones. It is a fundamental shift in connectivity that enables the Internet of Things (IoT), autonomous vehicles, and smart cities. With ultra-low latency and high bandwidth, 5G is unlocking potential in telemedicine, remote industrial control, and immersive augmented reality experiences. This article explores the broad implications of 5G across various sectors.",
+      "category": "Technology",
+      "tags": [
+        "5G",
+        "Connectivity",
+        "IoT"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/5g-technology.png",
+      "status": "PUBLISHED",
+      "readTime": "6 min read",
+      "publishedAt": "2025-01-15T10:00:00.000Z",
+      "createdAt": "2025-01-15T10:00:00.000Z",
+      "updatedAt": "2025-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "blog8",
+      "slug": "generative-ai-creative-industries",
+      "title": "Generative AI: A New Era for Creative Industries",
+      "excerpt": "Exploring how AI tools are augmenting human creativity in art, design, and writing.",
+      "content": "Generative AI tools like Midjourney, DALL-E, and GPT-4 are revolutionizing the creative landscape. They are not replacing artists but serving as powerful assistants that can generate concepts, draft content, and edit media at unprecedented speeds. We discuss the ethical considerations, the changing role of human creators, and the future of collaboration between humans and machines.",
+      "category": "AI & ML",
+      "tags": [
+        "Generative AI",
+        "Creativity",
+        "Innovation"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/generative-ai.png",
+      "status": "PUBLISHED",
+      "readTime": "8 min read",
+      "publishedAt": "2025-01-18T10:00:00.000Z",
+      "createdAt": "2025-01-18T10:00:00.000Z",
+      "updatedAt": "2025-01-18T10:00:00.000Z"
+    },
+    {
+      "id": "blog9",
+      "slug": "serverless-architecture-explained",
+      "title": "Serverless Architecture: The Future of Cloud Computing?",
+      "excerpt": "Understanding the benefits and use cases of going serverless.",
+      "content": "Serverless computing allows developers to build and run applications without managing servers. It offers automatic scaling, pay-for-value billing, and reduced operational overhead. In this post, we break down what serverless architecture is, its pros and cons, and when it is the right choice for your application.",
+      "category": "Cloud Computing",
+      "tags": [
+        "Serverless",
+        "AWS Lambda",
+        "Cloud"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/serverless.png",
+      "status": "PUBLISHED",
+      "readTime": "7 min read",
+      "publishedAt": "2025-01-20T10:00:00.000Z",
+      "createdAt": "2025-01-20T10:00:00.000Z",
+      "updatedAt": "2025-01-20T10:00:00.000Z"
+    },
+    {
+      "id": "blog10",
+      "slug": "progressive-web-apps-2025",
+      "title": "Why Progressive Web Apps (PWAs) are Still Relevant in 2025",
+      "excerpt": "Combining the best of web and mobile apps for superior user engagement.",
+      "content": "Progressive Web Apps (PWAs) continue to bridge the gap between web and native mobile applications. They offer offline capabilities, push notifications, and fast load times, all accessible through a browser. We analyze why major brands are investing in PWAs and how they can improve your user retention and conversion rates.",
+      "category": "Web Development",
+      "tags": [
+        "PWA",
+        "Web",
+        "Mobile"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/pwa-2025.png",
+      "status": "PUBLISHED",
+      "readTime": "6 min read",
+      "publishedAt": "2025-01-22T10:00:00.000Z",
+      "createdAt": "2025-01-22T10:00:00.000Z",
+      "updatedAt": "2025-01-22T10:00:00.000Z"
+    },
+    {
+      "id": "blog11",
+      "slug": "mobile-app-security-best-practices",
+      "title": "Essential Mobile App Security Best Practices",
+      "excerpt": "Protecting user data and ensuring app integrity in a mobile-first world.",
+      "content": "With the increasing reliance on mobile apps for banking, shopping, and communication, security is paramount. This guide covers essential security practices for mobile app developers, including secure data storage, API authentication, code obfuscation, and regular vulnerability assessments.",
+      "category": "Mobile Apps",
+      "tags": [
+        "Security",
+        "Mobile",
+        "Development"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/mobile-security.png",
+      "status": "PUBLISHED",
+      "readTime": "9 min read",
+      "publishedAt": "2025-01-25T10:00:00.000Z",
+      "createdAt": "2025-01-25T10:00:00.000Z",
+      "updatedAt": "2025-01-25T10:00:00.000Z"
+    },
+    {
+      "id": "blog12",
+      "slug": "devops-culture-shift",
+      "title": "DevOps: It's More Than Just Tools, It's a Culture",
+      "excerpt": "Breaking down silos between development and operations for faster delivery.",
+      "content": "DevOps is often misunderstood as just a set of tools like Jenkins or Docker. However, true DevOps is a cultural shift that emphasizes collaboration, communication, and shared responsibility between software developers and IT operations. We explore the core principles of DevOps and how to foster a successful DevOps culture in your organization.",
+      "category": "DevOps",
+      "tags": [
+        "DevOps",
+        "Culture",
+        "CI/CD"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/devops-culture.png",
+      "status": "PUBLISHED",
+      "readTime": "7 min read",
+      "publishedAt": "2025-01-28T10:00:00.000Z",
+      "createdAt": "2025-01-28T10:00:00.000Z",
+      "updatedAt": "2025-01-28T10:00:00.000Z"
+    },
+    {
+      "id": "blog13",
+      "slug": "cybersecurity-trends-2025",
+      "title": "Top Cybersecurity Trends to Watch in 2025",
+      "excerpt": "Staying ahead of threats in an increasingly digital landscape.",
+      "content": "As cyber threats become more sophisticated, cybersecurity strategies must evolve. In 2025, we are seeing a rise in AI-driven attacks, zero-trust architecture adoption, and increased focus on supply chain security. This article highlights the key trends that organizations need to be aware of to protect their assets and data.",
+      "category": "Cybersecurity",
+      "tags": [
+        "Security",
+        "Trends",
+        "Cybersecurity"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/cybersecurity-trends.png",
+      "status": "PUBLISHED",
+      "readTime": "8 min read",
+      "publishedAt": "2025-01-30T10:00:00.000Z",
+      "createdAt": "2025-01-30T10:00:00.000Z",
+      "updatedAt": "2025-01-30T10:00:00.000Z"
+    },
+    {
+      "id": "blog14",
+      "slug": "voice-search-seo",
+      "title": "Optimizing for Voice Search: The New SEO Frontier",
+      "excerpt": "Adapting your SEO strategy for the rise of voice-activated assistants.",
+      "content": "With the popularity of smart speakers and voice assistants like Siri and Alexa, voice search is changing how people find information. Voice queries are often longer, more conversational, and local-intent driven. We discuss actionable strategies to optimize your content for voice search and capture this growing segment of traffic.",
+      "category": "SEO & Digital Marketing",
+      "tags": [
+        "SEO",
+        "Voice Search",
+        "Marketing"
+      ],
+      "author": "Admin User",
+      "image": "/images/blog/voice-search-seo.png",
+      "status": "PUBLISHED",
+      "readTime": "6 min read",
+      "publishedAt": "2025-02-02T10:00:00.000Z",
+      "createdAt": "2025-02-02T10:00:00.000Z",
+      "updatedAt": "2025-02-02T10:00:00.000Z"
+    }
+  ],
+  "Project": [
+    {
+      "id": "cmiujutwl0001q9s94csxki63",
+      "title": "Godfrey Phillips India – Corporate & Sales Automation System",
+      "slug": "godfrey-phillips-india-corporate-sales-automation-system",
+      "description": "Enterprise corporate website with integrated secondary sales and SFA management systems.",
+      "fullDescription": "Developed a large-scale enterprise corporate website for Godfrey Phillips India with complete integration of secondary sales management and Sales Force Automation (SFA) system. This platform enables real-time dealer sales tracking, territory-wise performance monitoring, automated reporting, and role-based secure access for sales teams and management. The solution significantly improved operational efficiency and data transparency.",
+      "category": "Web",
+      "techStack": [
+        "Python",
+        "Django",
+        "Django Rest Framework",
+        "Celery",
+        "Redis",
+        "Third Party API's",
+        "ERP integration",
+        "Angular",
+        "React.js",
+        "php Laravel"
+      ],
+      "demoUrl": "https://www.godfreyphillips.co.in/",
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": true,
+      "createdAt": "2025-12-06 17:10:28.580",
+      "updatedAt": "2025-12-06 21:11:59.799",
+      "clientName": "Godfrey Phillips India",
+      "industry": "FMCG / Tobacco Manufacturing / Consumer Goods",
+      "problem": "Godfrey Phillips India faced challenges in managing real-time secondary sales data, dealer performance visibility, and field sales operations across multiple regions. Manual reporting, delayed data processing, and lack of centralized control resulted in inefficiencies, limited transparency, and slow decision-making for sales and management teams.",
+      "solution": "We designed and developed a centralized corporate website integrated with a robust Secondary Sales Management System and a full-featured Sales Force Automation (SFA) platform. The solution enables real-time sales tracking, automated report generation, role-based secure access for different user groups, and territory-wise performance monitoring for management and field teams.",
+      "impact": [
+        "Real-time visibility of dealer and secondary sales across all regions.",
+        "Automated reporting reduced manual workload by over 60%.",
+        "Territory-wise performance tracking improved decision-making for management.",
+        "Enhanced field sales productivity through SFA mobile and web access.",
+        "Improved operational efficiency and data accuracy across the sales network."
+      ],
+      "coverImageId": "cmiuqsd1x000bcds9i1dq4t5m",
+      "coverImageUrl": "/images/projects/godfrey-phillips-cover-1765052670736-359624066.png",
+      "galleryImageIds": [
+        "cmiuqs7lf000acds95met60oy"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/godfrey-phillips-thumb-1765052663664-671832717.png"
+      ]
+    },
+    {
+      "id": "cmiuoobgk0001cds9u72spp02",
+      "title": "SIEMCC – Secure Inventory & Stock Management System",
+      "slug": "siemcc-secure-inventory-stock-management-system",
+      "description": "Role-based online inventory, stock tracking, and order management system with real-time reporting.",
+      "fullDescription": "Designed and developed a secure, role-based Inventory Management System for SIEMCC to digitize stock tracking, inventory updates, and order management operations. The platform provides real-time visibility into stock levels, movement history, and order logs. Admin users can manage warehouses, control user access, and generate detailed inventory and operational reports, ensuring higher accuracy, accountability, and operational efficiency.",
+      "category": "Web",
+      "techStack": [
+        "Django",
+        "REST API",
+        "MySQL",
+        "React.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap 5",
+        "TypeScript",
+        "Angular"
+      ],
+      "demoUrl": "https://login.siemcc.com/",
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": false,
+      "createdAt": "2025-12-06 19:25:22.820",
+      "updatedAt": "2025-12-06 21:00:22.987",
+      "clientName": "NJ interior (SIEMCC)",
+      "industry": "Manufacturing / Supply Chain / Inventory Operations",
+      "problem": "SIEMCC required a centralized and secure system to manage inventory across multiple storage locations. The existing manual and spreadsheet-based processes caused frequent stock mismatches, delayed reporting, limited traceability of inventory movement, and inadequate control over user access.",
+      "solution": "We implemented a web-based, role-driven Inventory Management System that enables real-time stock updates, multi-warehouse tracking, secure user access control, and automated order logging. The platform provides administrators with powerful reporting tools and complete visibility into inventory operations, significantly improving control and data accuracy.",
+      "impact": [
+        "Real-time inventory visibility across all storage locations.",
+        "Reduction in stock mismatch and manual errors.",
+        "Improved audit readiness through detailed order and stock logs.",
+        "Secure role-based access enhanced operational control.",
+        "Faster inventory reporting and decision-making"
+      ],
+      "coverImageId": "cmiuqreft0005cds9j6dps0fj",
+      "coverImageUrl": "/images/projects/siemcc-cover-1765052625875-808116277.png",
+      "galleryImageIds": [
+        "cmiuqreft0005cds9j6dps0fj"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/siemcc-cover-1765052625875-808116277.png"
+      ]
+    },
+    {
+      "id": "cmiuodk3f0000cds9h3ytaexl",
+      "title": "Central Uttar Pradesh Gas Limited (CUGL) – Online Gas Consumer & Operations Management System",
+      "slug": "central-uttar-pradesh-gas-limited-cugl-online-gas-consumer-operations-management-system",
+      "description": "Online gas consumer service portal with secure admin dashboard for customer requests, billing support, and operations management.",
+      "fullDescription": "Developed a complete digital gas consumer management platform for Central Uttar Pradesh Gas Limited (CUGL) with a public-facing website and a secure backend dashboard. The system enables gas consumers to register, submit service requests, access billing-related information, and track application statuses online. The admin panel allows CUGL teams to manage consumers, handle service workflows, monitor operations, and generate reports efficiently, resulting in improved service delivery and transparency.",
+      "category": "Web",
+      "techStack": [
+        "Python",
+        "Django",
+        "Django Rest Framework",
+        "Angular",
+        "React.js",
+        "JavaScript",
+        "AWS Hosting",
+        "Flatter",
+        "Swift"
+      ],
+      "demoUrl": "https://www.cugl.co.in/",
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": false,
+      "createdAt": "2025-12-06 19:17:00.795",
+      "updatedAt": "2025-12-06 21:01:02.289",
+      "clientName": "Central Uttar Pradesh Gas Limited (CUGL)",
+      "industry": "Natural Gas Distribution / Public Utility Services",
+      "problem": "CUGL needed a scalable digital platform to manage a large number of gas consumers, service requests, and operational workflows across multiple districts. Earlier processes involved fragmented systems and manual coordination, leading to delays in customer service, limited real-time visibility, and operational inefficiencies.",
+      "solution": "We built an end-to-end online gas management system with a public consumer portal and a powerful backend administrative dashboard. The solution enables customers to submit requests, track progress, and access services digitally, while CUGL administrators can manage consumers, automate workflows, monitor performance, and generate operational reports in real time.",
+      "impact": [
+        "Digitization of gas consumer services across multiple districts.",
+        "Faster turnaround time for service requests and complaint resolution.",
+        "Centralized operations improved monitoring and reporting accuracy.",
+        "Reduced dependency on manual processes and paperwork.",
+        "Improved customer satisfaction through online self-service capabilities."
+      ],
+      "coverImageId": "cmiuqsjgz000dcds9dmmxt9c1",
+      "coverImageUrl": "/images/projects/cugl-cover-1765052679054-26853020.png",
+      "galleryImageIds": [
+        "cmiuqsgeq000ccds9n7jfu2of"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/cugl-thumb-1765052675087-599695591.png"
+      ]
+    },
+    {
+      "id": "cmium3xca0002q9s9cr540d0d",
+      "title": "Maharashtra Natural Gas Limited – Online Service Management Platform",
+      "slug": "maharashtra-natural-gas-limited-online-service-management-platform",
+      "description": "Customer service and backend management platform for MNGL gas services.",
+      "fullDescription": "Designed and developed a scalable online customer service portal for Mahanagar Gas Limited. The platform allows customers to access gas services, submit service requests, and manage their accounts, while the backend dashboard enables administrators to manage service workflows, customers, and system reports securely.",
+      "category": "Web",
+      "techStack": [
+        "Python",
+        "Django Rest Framework",
+        "MySQL Database",
+        "Angular",
+        "JavaScript",
+        "Bootstrap 5"
+      ],
+      "demoUrl": "https://mngl.in/",
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": false,
+      "createdAt": "2025-12-06 18:13:32.170",
+      "updatedAt": "2025-12-06 21:01:25.279",
+      "clientName": "Maharashtra Natural Gas Limited",
+      "industry": "Natural Gas Distribution / Utility Services",
+      "problem": "MNGL required a centralized digital platform to manage large volumes of customer service requests, gas connection applications, and operational workflows. Existing processes were largely manual, resulting in delayed responses, inefficient tracking of service requests, and limited visibility into real-time operational performance.",
+      "solution": "We designed and deployed a fully digital online service portal integrated with a secure backend operations dashboard. Customers can easily submit service requests, track their application progress, and manage their accounts online. The MNGL operations team can efficiently manage requests, automate workflows, and monitor service performance in real time through the admin panel.",
+      "impact": [
+        "Digitized customer service operations resulting in faster request processing.",
+        "Improved transparency for customers through real-time request tracking.",
+        "Reduced manual workload for operations teams by over 50%.",
+        "Centralized data management improved reporting accuracy.",
+        "Enhanced overall customer experience and service efficiency."
+      ],
+      "coverImageId": "cmiuqrsyi0008cds9h9d48z07",
+      "coverImageUrl": "/images/projects/mngl-cover-1765052644693-782793338.png",
+      "galleryImageIds": [
+        "cmiuqrmf60007cds991vdzfxj"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/mngl-thumb-1765052636223-581291634.png"
+      ]
+    },
+    {
+      "id": "cmiuprx6x0004cds9xhnoxona",
+      "title": "Hajela IAS – OCR-Based PDF & Test Automation System",
+      "slug": "hajela-ias-ocr-based-pdf-test-automation-system",
+      "description": "OCR-based automation system to convert PDFs and digital books into Excel for online test creation and ClassPlus integration.",
+      "fullDescription": "Developed a complete OCR-based automation solution for Hajela IAS that converts PDF files and digital books into structured Excel format. This extracted data is then automatically uploaded to the Hajela IAS Online Test Portal and the ClassPlus application for fast and accurate test creation. The system dramatically reduced manual data entry efforts and enabled large-scale digital test generation for UPSC/IAS preparation.",
+      "category": "Automation",
+      "techStack": [
+        "Python",
+        "Tesseract OCR",
+        "pypdf",
+        "ReportLab",
+        "PyMuPDF",
+        "Pandas",
+        "NumPy",
+        "Django",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "demoUrl": "https://hajelaias.com/",
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": true,
+      "createdAt": "2025-12-06 19:56:10.568",
+      "updatedAt": "2025-12-06 20:57:52.725",
+      "clientName": "Hajela IAS Academy",
+      "industry": "Education / UPSC & Competitive Exam Training (EdTech)",
+      "problem": "Hajela IAS required a fast, accurate, and scalable way to convert large volumes of PDF question banks and digital study material into a structured format for online testing. Manual data entry was time-consuming, error-prone, and not suitable for handling thousands of questions across multiple subjects.",
+      "solution": "We built an OCR-based automation system using Python and Tesseract that processes PDFs and digital books, intelligently extracts text, structures the data into Excel format, and automatically integrates it with the Hajela IAS Test Portal and ClassPlus platform. This enabled instant digital test creation with high accuracy and zero manual intervention.",
+      "impact": [
+        "Automated conversion of thousands of PDF questions into Excel format.",
+        "Reduced manual data entry workload by over 80%.",
+        "Faster online test creation and publishing.",
+        "Seamless integration with ClassPlus and the Hajela IAS Test Portal.",
+        "Improved accuracy and consistency of digital question banks."
+      ],
+      "coverImageId": "cmiuqrxci0009cds9z57o4gqh",
+      "coverImageUrl": "/images/projects/hajela-ias-cover-1765052650381-334224232.png",
+      "galleryImageIds": [
+        "cmiuqrxci0009cds9z57o4gqh"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/hajela-ias-cover-1765052650381-334224232.png"
+      ]
+    },
+    {
+      "id": "cmiupeuis0003cds93yx8oxrw",
+      "title": "AI-Based Safety Measure Detection System",
+      "slug": "ai-based-safety-measure-detection-system",
+      "description": "Deep learning-powered computer vision system to automatically detect helmets, masks, and safety gear in real-time environments.",
+      "fullDescription": "Developed an advanced deep learning and computer vision-based safety compliance system that automatically detects the presence of safety equipment such as helmets, face masks, and protective gear in industrial and construction environments. The system processes live camera feeds and identifies whether safety protocols are being followed. Non-compliance events are logged and can trigger real-time alerts for supervisors, improving workplace safety and regulatory adherence.",
+      "category": "AI",
+      "techStack": [
+        "Python",
+        "OpenCV",
+        "Ultralytics YOLO",
+        "TensorFlow",
+        "Scikit-learn",
+        "Machine Learning"
+      ],
+      "demoUrl": null,
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": true,
+      "createdAt": "2025-12-06 19:46:00.580",
+      "updatedAt": "2025-12-06 20:59:09.774",
+      "clientName": "Industrial Safety & Compliance Project (Enterprise Client - Toyota)",
+      "industry": "Manufacturing / Construction / Industrial Safety",
+      "problem": "Industrial and construction environments frequently face safety compliance challenges due to the manual monitoring of workers using CCTV cameras. Human supervision alone is not scalable and often fails to detect safety violations in real time, leading to increased accident risks and regulatory non-compliance.",
+      "solution": "We implemented a real-time AI-based computer vision system using deep learning models to automatically detect helmets, masks, and safety gear from live camera feeds. The system continuously monitors multiple camera streams, identifies safety violations, logs non-compliance events, and can trigger instant alerts to supervisors for immediate corrective action.",
+      "impact": [
+        "Real-time detection of safety gear violations across multiple camera feeds.",
+        "Reduced workplace accident risk through proactive monitoring.",
+        "Improved regulatory compliance and audit readiness.",
+        "Scalable monitoring solution without increasing manpower.",
+        "Enhanced overall safety culture within industrial environments."
+      ],
+      "coverImageId": "cmiuqsncr000ecds9vqxqmbz3",
+      "coverImageUrl": "/images/projects/ai-safety-cover-1765052684087-651198517.png",
+      "galleryImageIds": [
+        "cmiuqsncr000ecds9vqxqmbz3"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/ai-safety-cover-1765052684087-651198517.png"
+      ]
+    },
+    {
+      "id": "cmiuoyesr0002cds9wpgk69w1",
+      "title": "PVR Cinemas – AI-Based Popcorn Fraud Detection System",
+      "slug": "pvr-cinemas-ai-based-popcorn-fraud-detection-system",
+      "description": "Machine learning-powered computer vision system to detect popcorn quantity fraud at cinema counters in real time.",
+      "fullDescription": "Developed a Proof-of-Concept (POC) machine learning and computer vision-based system for PVR Cinemas to automatically detect popcorn quantity fraud at cinema snack counters. The system uses camera feeds and deep learning models to identify discrepancies between expected and actual popcorn quantities dispensed. The solution helps reduce revenue leakage, improves operational transparency, and enables real-time fraud monitoring through an admin dashboard.",
+      "category": "AI",
+      "techStack": [
+        "Python",
+        "Deep Learning",
+        "OpenCV",
+        "TensorFlow",
+        "Machine Learning",
+        "Angular",
+        "Html",
+        "JavaScript"
+      ],
+      "demoUrl": "https://demo.triazinesoft.com/trizo_admin/",
+      "githubUrl": "https://github.com/RKNextGen-Technologies",
+      "featured": true,
+      "createdAt": "2025-12-06 19:33:13.706",
+      "updatedAt": "2025-12-06 20:59:37.630",
+      "clientName": "PVR Cinemas (POC Project)",
+      "industry": "Entertainment / Cinema / Food & Beverage Operations",
+      "problem": "PVR cinema counters faced challenges in controlling and monitoring popcorn quantity dispensing, which sometimes led to intentional or unintentional revenue leakage. Manual supervision was inconsistent and did not provide accurate, real-time validation of quantity-based sales.",
+      "solution": "We developed an AI-powered computer vision system that uses live camera feeds and deep learning models to automatically detect and validate the quantity of popcorn being dispensed. The system flags discrepancies in real time and provides administrators with a web-based dashboard to monitor operations and potential fraud events.",
+      "impact": [
+        "Automated detection of popcorn quantity discrepancies in real time.",
+        "Significant reduction in potential revenue leakage.",
+        "Improved transparency and accountability at snack counters.",
+        "Reduced dependence on manual supervision.",
+        "Proof of feasibility for wider AI-driven retail fraud detection."
+      ],
+      "coverImageId": "cmiuqrj6o0006cds96qw14cso",
+      "coverImageUrl": "/images/projects/pvr-ai-cover-1765052632028-326583399.png",
+      "galleryImageIds": [
+        "cmiuqrj6o0006cds96qw14cso"
+      ],
+      "galleryImageUrls": [
+        "/images/projects/pvr-ai-cover-1765052632028-326583399.png"
+      ]
+    }
+  ],
+  "CaseStudy": [],
+  "Testimonial": [
+    {
+      "id": "test1",
+      "clientName": "Sarah Johnson",
+      "company": "InnovateFin",
+      "photo": "/images/clients/user.png",
+      "rating": 5,
+      "text": "RK NextGen transformed our legacy financial systems into a modern, cloud-native architecture. Their expertise in AI also helped us automate fraud detection, saving us millions.",
+      "featured": true,
+      "createdAt": "2025-02-15T00:00:00.000Z",
+      "updatedAt": "2025-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "test2",
+      "clientName": "Michael Chen",
+      "company": "HealthTech Solutions",
+      "photo": "/images/clients/user.png",
+      "rating": 5,
+      "text": "The team delivered an exceptional mobile app for our patient monitoring system. The UI is intuitive, and the backend is incredibly robust. Highly recommended for healthcare IT projects.",
+      "featured": true,
+      "createdAt": "2025-02-10T00:00:00.000Z",
+      "updatedAt": "2025-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "test3",
+      "clientName": "Priya Sharma",
+      "company": "EduLearn",
+      "photo": "/images/clients/user.png",
+      "rating": 5,
+      "text": "We needed a scalable e-learning platform, and RK NextGen delivered beyond our expectations. Their attention to detail and commitment to quality code is impressive.",
+      "featured": true,
+      "createdAt": "2025-01-28T00:00:00.000Z",
+      "updatedAt": "2025-01-28T00:00:00.000Z"
+    },
+    {
+      "id": "test4",
+      "clientName": "David Miller",
+      "company": "LogisticsPro",
+      "photo": "/images/clients/user.png",
+      "rating": 4,
+      "text": "Their custom ERP solution streamlined our supply chain operations significantly. The real-time analytics dashboard gives us insights we never had before.",
+      "featured": true,
+      "createdAt": "2025-01-15T00:00:00.000Z",
+      "updatedAt": "2025-01-15T00:00:00.000Z"
+    }
+  ],
+  "TeamMember": [
+    {
+      "id": "kamlesh-lovewanshi",
+      "name": "Kamlesh Lovewanshi",
+      "role": "Founder & CEO",
+      "bio": "Kamlesh Lovewanshi is the Founder & CEO of RK NextGen Technologies, a forward-thinking IT company focused on delivering innovative digital solutions. With strong expertise in software development, web technologies, and business strategy, he leads the company with a clear vision of empowering businesses through technology. His passion for innovation, quality execution, and client success drives the growth and culture of RK NextGen Technologies.",
+      "photo": "/images/teams/kamlesh.jpg",
+      "linkedIn": "https://www.linkedin.com/in/kamlesh-lovewanshi/",
+      "github": "https://github.com/RKNextGen-Technologies",
+      "order": 1
+    },
+    {
+      "id": "manoj-lovewanshi",
+      "name": "Manoj Lovewanshi",
+      "role": "Chief Strategy & Execution Officer",
+      "bio": "Manoj Lovewanshi is the Chief Strategy & Operations Officer at RK NextGen Technologies and a core pillar of the company’s execution engine. Known for his powerful leadership, decision-making ability, and operational control, he ensures that company strategies are transformed into real-world results. He plays a critical role in high-priority projects, team performance management, and overall business execution. His leadership strength, discipline, and reliability make him a key force behind the company’s success.",
+      "linkedIn": "#",
+      "github": "https://github.com/RKNextGen-Technologies",
+      "photo": "/images/teams/Manoj.jpg",
+      "order": 2
+    },
+    {
+      "id": "prachi-sahu",
+      "name": "Prachi Sahu",
+      "role": "Mobile and iOS Application Developer",
+      "bio": "Prachi Sahu is the Mobile and iOS Application Developer at RK NextGen Technologies, specializing in building high-performance mobile applications. With expertise in both iOS and Android platforms, she creates seamless and engaging mobile experiences. Her focus on code quality and user-centric design ensures that every app delivers exceptional value to users.",
+      "linkedIn": "https://www.linkedin.com/in/prachi-sahu-1a0119201/",
+      "github": "https://github.com/RKNextGen-Technologies",
+      "photo": "/images/teams/Prachi.jpg",
+      "order": 4
+    },
+    {
+      "id": "neelam-jounjare",
+      "name": "Neelam Jounjare",
+      "role": "Human Resources Manager",
+      "bio": "Neelam Jounjare is the HR Manager at RK NextGen Technologies, responsible for building a strong people-first culture within the organization. She oversees talent acquisition, employee engagement, training & development, performance management, and HR compliance. With a people-centric approach and strong organizational skills, she ensures a positive, productive, and professional work environment that supports both employee growth and company success.",
+      "linkedIn": "https://www.linkedin.com/in/neelam-jounjare-6a3072272/",
+      "github": "https://github.com/RKNextGen-Technologies",
+      "photo": "/images/teams/Neelam.jpg",
+      "order": 3
+    },
+    {
+      "id": "rakesh-sahu",
+      "name": "Rakesh Sahu",
+      "role": "Fullstack Developer",
+      "bio": "Rakesh Sahu is the Fullstack Developer at RK NextGen Technologies, responsible for leading the company’s technical vision, development processes, and engineering teams. With strong expertise in software architecture, modern web technologies, and project execution, he ensures that all technical solutions are scalable, secure, and high-performing. His leadership bridges the gap between business requirements and technical implementation, driving innovation and delivery excellence.",
+      "linkedIn": "https://www.linkedin.com/in/rakesh-sahu-1201/",
+      "github": "https://github.com/RKNextGen-Technologies",
+      "photo": "/images/teams/Rakesh.jpg",
+      "order": 5
+    },
+    {
+      "id": "dipti-gautam",
+      "name": "Dipti Gautam",
+      "role": "Frontend and UI/UX Developer",
+      "bio": "Dipti Gautam is the Frontend and UI/UX Developer at RK NextGen Technologies, specializing in creating intuitive and visually appealing user interfaces. With a strong focus on user experience and design principles, she ensures that every product is both functional and beautiful, delivering an excellent user experience.",
+      "linkedIn": "https://www.linkedin.com/in/dipti-gautam-46a669244/",
+      "github": "https://github.com/RKNextGen-Technologies",
+      "photo": "/images/teams/Dipti.jpg",
+      "order": 6
+    }
+  ],
+  "Job": [],
+  "Application": [],
+  "Lead": [
+    {
+      "id": "zgimiknbk",
+      "createdAt": "2026-01-10T16:30:43.382Z",
+      "updatedAt": "2026-01-10T16:30:43.382Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "admin@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "rm6vtl5p4",
+      "createdAt": "2026-01-10T16:34:47.510Z",
+      "updatedAt": "2026-01-10T16:34:47.510Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "admin@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "u387y9exd",
+      "createdAt": "2026-01-10T16:38:10.794Z",
+      "updatedAt": "2026-01-10T16:38:10.794Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "admin@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "3o6rglke6",
+      "createdAt": "2026-01-10T16:44:34.188Z",
+      "updatedAt": "2026-01-10T16:44:34.188Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "kamleshlovewanshi2000@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "oq6g29x3b",
+      "createdAt": "2026-01-10T16:48:44.514Z",
+      "updatedAt": "2026-01-10T16:48:44.514Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "kamleshlovewanshi2000@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "lfc691vvl",
+      "createdAt": "2026-01-10T16:51:28.273Z",
+      "updatedAt": "2026-01-10T16:51:28.273Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "admin@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "470nkwkdt",
+      "createdAt": "2026-01-10T16:52:22.325Z",
+      "updatedAt": "2026-01-10T16:52:22.325Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "kamleshlovewanshi2000@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    },
+    {
+      "id": "iduukxz1n",
+      "createdAt": "2026-01-11T09:00:38.857Z",
+      "updatedAt": "2026-01-11T09:00:38.857Z",
+      "name": "Kamlesh Lovewanshi",
+      "email": "kamleshlovewanshi2000@gmail.com",
+      "phone": "7877676767",
+      "company": "test",
+      "message": "Sector 62",
+      "type": "CONTACT",
+      "status": "NEW",
+      "isRead": false
+    }
+  ],
+  "Media": [],
+  "Settings": [
+    {
+      "id": "main",
+      "companyName": "RK NextGen Technologies",
+      "tagline": "Empowering businesses with next-generation AI, Cloud, and Software solutions.",
+      "email": "info.rknextgen@gmail.com",
+      "phone": "+91 8823857525",
+      "socialLinks": "{\"github\": \"https://github.com/rknextgen\", \"twitter\": \"https://x.com/RkNextgenTech?t=u5yRz8SREAqmEWFGhr9drg&s=09\", \"facebook\": \"https://www.facebook.com/profile.php?id=61584372557654\", \"linkedin\": \"https://www.linkedin.com/company/rk-nextgen-technologies\", \"instagram\": \"https://www.instagram.com/rknextgen_technologies?igsh=a215ZzdpbWJyMzRt\"}",
+      "primaryColor": "#00C2D9",
+      "accentColor": "#8A2BE2",
+      "darkMode": true,
+      "animations": true,
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "PageSEO": [
+    {
+      "id": "home",
+      "metaTitle": "Home | RK NextGen Technologies",
+      "metaDesc": "Leading the future of digital transformation with AI, Cloud, and Next-Gen Software Solutions.",
+      "ogImage": "/images/og/home.png"
+    },
+    {
+      "id": "about",
+      "metaTitle": "About Us | RK NextGen Technologies",
+      "metaDesc": "Learn about our mission, vision, and the team driving innovation at RK NextGen Technologies.",
+      "ogImage": "/images/og/about.png"
+    },
+    {
+      "id": "services",
+      "metaTitle": "Services | RK NextGen Technologies",
+      "metaDesc": "Explore our comprehensive range of services including AI, Cloud Computing, Web Development, and more.",
+      "ogImage": "/images/og/services.png"
+    },
+    {
+      "id": "projects",
+      "metaTitle": "Projects | RK NextGen Technologies",
+      "metaDesc": "Discover our portfolio of successful projects and case studies across various industries.",
+      "ogImage": "/images/og/projects.png"
+    },
+    {
+      "id": "blog",
+      "metaTitle": "Blog | RK NextGen Technologies",
+      "metaDesc": "Stay updated with the latest trends in technology, AI, and software development.",
+      "ogImage": "/images/og/blog.png"
+    },
+    {
+      "id": "careers",
+      "metaTitle": "Careers | RK NextGen Technologies",
+      "metaDesc": "Join our team of innovators and help shape the future of technology.",
+      "ogImage": "/images/og/careers.png"
+    },
+    {
+      "id": "contact",
+      "metaTitle": "Contact Us | RK NextGen Technologies",
+      "metaDesc": "Get in touch with us for your next project or any inquiries.",
+      "ogImage": "/images/og/contact.png"
+    }
+  ],
+  "LegalPage": [
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Policy",
+      "content": "<h2>1. Introduction</h2><p>Welcome to RK NextGen Technologies. We respect your privacy and are committed to protecting your personal data.</p><h2>2. Data We Collect</h2><p>We may collect personal information such as your name, email address, and phone number when you contact us.</p><h2>3. How We Use Your Data</h2><p>We use your data to provide and improve our services, communicate with you, and comply with legal obligations.</p>",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "terms-of-service",
+      "title": "Terms of Service",
+      "content": "<h2>1. Acceptance of Terms</h2><p>By accessing and using our website, you agree to comply with and be bound by these Terms of Service.</p><h2>2. Use of Services</h2><p>You agree to use our services only for lawful purposes and in accordance with these terms.</p><h2>3. Intellectual Property</h2><p>All content on this website is the property of RK NextGen Technologies and is protected by copyright laws.</p>",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "cookie-policy",
+      "title": "Cookie Policy",
+      "content": "<h2>1. What are Cookies?</h2><p>Cookies are small text files stored on your device when you visit a website.</p><h2>2. How We Use Cookies</h2><p>We use cookies to analyze website traffic and improve your user experience.</p><h2>3. Managing Cookies</h2><p>You can control and manage cookies through your browser settings.</p>",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "disclaimer",
+      "title": "Disclaimer",
+      "content": "<h2>1. General Disclaimer</h2><p>The information provided on this website is for general informational purposes only.</p><h2>2. No Warranty</h2><p>We make no warranties, expressed or implied, regarding the accuracy or completeness of the information.</p>",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "PageView": [
+    {
+      "id": "pv1",
+      "page": "/",
+      "count": 150,
+      "date": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pv2",
+      "page": "/about",
+      "count": 45,
+      "date": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pv3",
+      "page": "/services",
+      "count": 80,
+      "date": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pv4",
+      "page": "/",
+      "count": 165,
+      "date": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "pv5",
+      "page": "/blog",
+      "count": 120,
+      "date": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "pv6",
+      "page": "/contact",
+      "count": 30,
+      "date": "2026-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "pv7",
+      "page": "/",
+      "count": 180,
+      "date": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "pv8",
+      "page": "/projects",
+      "count": 95,
+      "date": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "pv9",
+      "page": "/careers",
+      "count": 50,
+      "date": "2026-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "pv10",
+      "page": "/",
+      "count": 200,
+      "date": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "pv11",
+      "page": "/about",
+      "count": 60,
+      "date": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "pv12",
+      "page": "/services",
+      "count": 90,
+      "date": "2026-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "pv13",
+      "page": "/",
+      "count": 190,
+      "date": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "pv14",
+      "page": "/blog",
+      "count": 140,
+      "date": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "pv15",
+      "page": "/contact",
+      "count": 40,
+      "date": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "pv16",
+      "page": "/",
+      "count": 210,
+      "date": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "pv17",
+      "page": "/projects",
+      "count": 110,
+      "date": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "pv18",
+      "page": "/careers",
+      "count": 55,
+      "date": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "pv19",
+      "page": "/",
+      "count": 220,
+      "date": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "pv20",
+      "page": "/about",
+      "count": 70,
+      "date": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "pv21",
+      "page": "/services",
+      "count": 100,
+      "date": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "pv22",
+      "page": "/",
+      "count": 230,
+      "date": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "pv23",
+      "page": "/blog",
+      "count": 160,
+      "date": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "pv24",
+      "page": "/contact",
+      "count": 50,
+      "date": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "pv25",
+      "page": "/",
+      "count": 250,
+      "date": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "pv26",
+      "page": "/projects",
+      "count": 120,
+      "date": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "pv27",
+      "page": "/careers",
+      "count": 60,
+      "date": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "pv28",
+      "page": "/",
+      "count": 270,
+      "date": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "pv29",
+      "page": "/about",
+      "count": 80,
+      "date": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "pv30",
+      "page": "/services",
+      "count": 110,
+      "date": "2026-01-10T00:00:00.000Z"
+    }
+  ]
 }
