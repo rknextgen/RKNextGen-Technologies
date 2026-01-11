@@ -32,19 +32,27 @@ export default function AdminDashboard() {
     useEffect(() => {
         const fetchStats = async () => {
             try {
-                const res = await fetch('/api/dashboard/stats');
+                const [dashboardRes, analyticsRes] = await Promise.all([
+                    fetch('/api/dashboard/stats'),
+                    fetch('/api/analytics?days=7')
+                ]);
 
-                if (!res.ok) {
-                    if (res.status === 401 || res.status === 403) {
+                if (!dashboardRes.ok) {
+                    if (dashboardRes.status === 401 || dashboardRes.status === 403) {
                         window.location.href = '/admin/login';
                         return;
                     }
                     throw new Error('Failed to fetch stats');
                 }
 
-                const data = await res.json();
-                setStats(data.stats || {});
-                setRecentActivity(data.recentActivity || []);
+                const dashboardData = await dashboardRes.json();
+                const analyticsData = analyticsRes.ok ? await analyticsRes.json() : { chartData: [] };
+
+                setStats({
+                    ...dashboardData.stats,
+                    chartData: analyticsData.chartData || []
+                });
+                setRecentActivity(dashboardData.recentActivity || []);
             } catch (error) {
                 console.error('Error fetching dashboard stats:', error);
                 setRecentActivity([]);
@@ -180,16 +188,36 @@ export default function AdminDashboard() {
             {/* Analytics Preview */}
             <Card className="p-6">
                 <div className="flex justify-between items-center mb-4">
-                    <h2 className="text-xl font-bold text-white">Analytics Overview</h2>
+                    <h2 className="text-xl font-bold text-white">Analytics Overview (Last 7 Days)</h2>
                     <Link href="/admin/analytics" className="text-cyan hover:underline text-sm">
                         View Full Analytics
                     </Link>
                 </div>
-                <div className="h-64 flex items-center justify-center bg-white/5 rounded-lg border border-white/10">
-                    <div className="text-center text-gray-400">
-                        <TrendingUp size={48} className="mx-auto mb-2 opacity-50" />
-                        <p>View detailed analytics in the Analytics tab</p>
-                    </div>
+                <div className="h-64">
+                    {loading ? (
+                        <div className="h-full flex items-center justify-center text-gray-500">Loading analytics...</div>
+                    ) : stats?.chartData ? (
+                        <ResponsiveContainer width="100%" height="100%">
+                            <LineChart data={stats.chartData}>
+                                <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                                <XAxis dataKey="date" stroke="#666" />
+                                <YAxis stroke="#666" />
+                                <Tooltip
+                                    contentStyle={{ backgroundColor: '#1a1a1a', border: '1px solid #333' }}
+                                    itemStyle={{ color: '#fff' }}
+                                />
+                                <Line
+                                    type="monotone"
+                                    dataKey="visitors"
+                                    stroke="#00C2D9"
+                                    strokeWidth={3}
+                                    dot={{ fill: '#00C2D9' }}
+                                />
+                            </LineChart>
+                        </ResponsiveContainer>
+                    ) : (
+                        <div className="h-full flex items-center justify-center text-gray-500">No analytics data available</div>
+                    )}
                 </div>
             </Card>
         </div>

@@ -713,112 +713,7 @@
   ],
   "Job": [],
   "Application": [],
-  "Lead": [
-    {
-      "id": "zgimiknbk",
-      "createdAt": "2026-01-10T16:30:43.382Z",
-      "updatedAt": "2026-01-10T16:30:43.382Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "admin@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "rm6vtl5p4",
-      "createdAt": "2026-01-10T16:34:47.510Z",
-      "updatedAt": "2026-01-10T16:34:47.510Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "admin@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "u387y9exd",
-      "createdAt": "2026-01-10T16:38:10.794Z",
-      "updatedAt": "2026-01-10T16:38:10.794Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "admin@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "3o6rglke6",
-      "createdAt": "2026-01-10T16:44:34.188Z",
-      "updatedAt": "2026-01-10T16:44:34.188Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "kamleshlovewanshi2000@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "oq6g29x3b",
-      "createdAt": "2026-01-10T16:48:44.514Z",
-      "updatedAt": "2026-01-10T16:48:44.514Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "kamleshlovewanshi2000@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "lfc691vvl",
-      "createdAt": "2026-01-10T16:51:28.273Z",
-      "updatedAt": "2026-01-10T16:51:28.273Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "admin@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "470nkwkdt",
-      "createdAt": "2026-01-10T16:52:22.325Z",
-      "updatedAt": "2026-01-10T16:52:22.325Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "kamleshlovewanshi2000@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    },
-    {
-      "id": "iduukxz1n",
-      "createdAt": "2026-01-11T09:00:38.857Z",
-      "updatedAt": "2026-01-11T09:00:38.857Z",
-      "name": "Kamlesh Lovewanshi",
-      "email": "kamleshlovewanshi2000@gmail.com",
-      "phone": "7877676767",
-      "company": "test",
-      "message": "Sector 62",
-      "type": "CONTACT",
-      "status": "NEW",
-      "isRead": false
-    }
-  ],
+  "Lead": [],
   "Media": [],
   "Settings": [
     {
@@ -827,6 +722,8 @@
       "tagline": "Empowering businesses with next-generation AI, Cloud, and Software solutions.",
       "email": "info.rknextgen@gmail.com",
       "phone": "+91 8823857525",
+      "analyticsId": "G-EBQ939M16X",
+      "whatsapp": "8823857525",
       "socialLinks": "{\"github\": \"https://github.com/rknextgen\", \"twitter\": \"https://x.com/RkNextgenTech?t=u5yRz8SREAqmEWFGhr9drg&s=09\", \"facebook\": \"https://www.facebook.com/profile.php?id=61584372557654\", \"linkedin\": \"https://www.linkedin.com/company/rk-nextgen-technologies\", \"instagram\": \"https://www.instagram.com/rknextgen_technologies?igsh=a215ZzdpbWJyMzRt\"}",
       "primaryColor": "#00C2D9",
       "accentColor": "#8A2BE2",
@@ -1086,6 +983,14 @@
       "page": "/services",
       "count": 110,
       "date": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "vtivajumw",
+      "createdAt": "2026-01-11T12:05:25.964Z",
+      "updatedAt": "2026-01-11T12:05:27.711Z",
+      "page": "/contact",
+      "count": 2,
+      "date": "2026-01-10T18:30:00.000Z"
     }
   ]
 }
