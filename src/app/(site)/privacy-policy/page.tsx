@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
                     <div>
                         <h2 className="text-2xl font-bold text-white mb-4">5. Contact Us</h2>
                         <p>
-                            If you have any questions about this privacy policy or our privacy practices, please contact us at: <strong>info.rknextgen@gmail.com</strong>.
+                            If you have any questions about this privacy policy or our privacy practices, please contact us at: <strong>info@rknextgen.com</strong>.
                         </p>
                     </div>
 

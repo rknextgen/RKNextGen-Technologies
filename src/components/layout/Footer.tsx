@@ -16,7 +16,7 @@ interface FooterProps {
 const Footer = ({ settings }: FooterProps) => {
     const companyName = settings?.companyName || 'RK NextGen Technologies';
     const tagline = settings?.tagline || 'Empowering businesses with next-generation AI, Cloud, and Software solutions.';
-    const email = settings?.email || 'info.rknextgen@gmail.com';
+    const email = settings?.email || 'info@rknextgen.com';
     const phone = settings?.phone || '+91 8823857525';
     let socialLinks = settings?.socialLinks || {};
     if (typeof socialLinks === 'string') {
