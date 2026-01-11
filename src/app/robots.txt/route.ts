@@ -4,9 +4,10 @@ export function GET() {
     const robots = `
 User-agent: *
 Allow: /
+Disallow: /private/
 
 Sitemap: https://www.rknextgen.com/sitemap.xml
-  `.trim();
+`.trim();
 
     return new NextResponse(robots, {
         headers: {
