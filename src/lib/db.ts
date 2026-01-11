@@ -74,7 +74,7 @@ class MockPrismaClient {
                 if (value === undefined) return true;
 
                 // Handle simple equality
-                if (typeof value !== 'object') {
+                if (typeof value !== 'object' || value === null || value instanceof Date) {
                   return item[key] === value;
                 }
 
@@ -88,6 +88,17 @@ class MockPrismaClient {
                   const itemVal = String(item[key] || '').toLowerCase();
                   const searchVal = String((value as any).contains).toLowerCase();
                   return itemVal.includes(searchVal);
+                }
+
+                // Handle date comparisons (gte, lte, gt, lt)
+                if ((value as any).gte || (value as any).lte || (value as any).gt || (value as any).lt) {
+                  const itemDate = new Date(item[key]);
+                  let matches = true;
+                  if ((value as any).gte) matches = matches && itemDate >= new Date((value as any).gte);
+                  if ((value as any).lte) matches = matches && itemDate <= new Date((value as any).lte);
+                  if ((value as any).gt) matches = matches && itemDate > new Date((value as any).gt);
+                  if ((value as any).lt) matches = matches && itemDate < new Date((value as any).lt);
+                  return matches;
                 }
 
                 // Handle OR (special case, usually at top level but simplified here)

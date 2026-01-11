@@ -29,7 +29,8 @@ export async function GET(request: NextRequest) {
 
         // Group by date for line chart
         const viewsByDate = pageViews.reduce((acc: any, curr: any) => {
-            const dateStr = curr.date.toISOString().split('T')[0];
+            // Ensure date is a Date object before calling toISOString
+            const dateStr = new Date(curr.date).toISOString().split('T')[0];
             if (!acc[dateStr]) {
                 acc[dateStr] = 0;
             }

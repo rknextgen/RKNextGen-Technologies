@@ -19,6 +19,9 @@ export const metadata: Metadata = {
 
 import Script from "next/script";
 
+import { Suspense } from 'react';
+import { AnalyticsTracker } from '@/components/analytics/AnalyticsTracker';
+
 export default function RootLayout({
   children,
 }: {
@@ -42,6 +45,9 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-black text-white antialiased selection:bg-cyan/30 selection:text-cyan`}>
         <PageLoader />
+        <Suspense fallback={null}>
+          <AnalyticsTracker />
+        </Suspense>
         {children}
       </body>
     </html>
