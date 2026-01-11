@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.rknextgen.com
+
+# Sitemaps
+Sitemap: https://www.rknextgen.com/sitemap.xml
