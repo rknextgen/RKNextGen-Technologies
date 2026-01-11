@@ -33,11 +33,21 @@ export default function AdminDashboard() {
         const fetchStats = async () => {
             try {
                 const res = await fetch('/api/dashboard/stats');
+
+                if (!res.ok) {
+                    if (res.status === 401 || res.status === 403) {
+                        window.location.href = '/admin/login';
+                        return;
+                    }
+                    throw new Error('Failed to fetch stats');
+                }
+
                 const data = await res.json();
-                setStats(data.stats);
-                setRecentActivity(data.recentActivity);
+                setStats(data.stats || {});
+                setRecentActivity(data.recentActivity || []);
             } catch (error) {
                 console.error('Error fetching dashboard stats:', error);
+                setRecentActivity([]);
             } finally {
                 setLoading(false);
             }

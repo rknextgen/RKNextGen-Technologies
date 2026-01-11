@@ -8,6 +8,15 @@
       "role": "SUPER_ADMIN",
       "createdAt": "2024-01-01T00:00:00.000Z",
       "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user_1768127787796",
+      "email": "info.rknextgen@gmail.com",
+      "password": "$2b$10$SJJLUJu0xHkK20mTzBlp0.FQZlZ0hE172zAAWoeFeJGpBSk8yXCK.",
+      "name": "Admin",
+      "role": "SUPER_ADMIN",
+      "createdAt": "2026-01-11T10:36:27.796Z",
+      "updatedAt": "2026-01-11T10:36:27.796Z"
     }
   ],
   "Blog": [
