@@ -53,7 +53,7 @@ class MockPrismaClient {
     const models = [
       'user', 'blog', 'project', 'caseStudy', 'testimonial',
       'teamMember', 'job', 'application', 'lead', 'media',
-      'settings', 'pageSEO', 'legalPage', 'pageView'
+      'settings', 'pageSEO', 'legalPage', 'pageView', 'techBadge'
     ];
 
     models.forEach(model => {

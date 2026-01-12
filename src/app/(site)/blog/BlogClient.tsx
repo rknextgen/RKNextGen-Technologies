@@ -146,9 +146,7 @@ export default function BlogClient({ initialBlogs }: BlogClientProps) {
                     {/* Category Filter */}
                     <CategoryFilter categories={categories} baseUrl="/blog" />
                 </div>
-            </Section>
 
-            <Section>
                 {/* Blog Grid */}
                 {displayedBlogs.length === 0 ? (
                     <div className="text-center py-20">

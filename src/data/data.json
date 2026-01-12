@@ -2,8 +2,8 @@
   "User": [
     {
       "id": "user1",
-      "email": "admin@example.com",
-      "password": "$2b$10$PVQNRYkU07DgZZcfG7UFAOnkiZaz4EZOdPYIc5ugZG7OzwXERTKRa",
+      "email": "info@rknextgen.com",
+      "password": "$2b$10$SJJLUJu0xHkK20mTzBlp0.FQZlZ0hE172zAAWoeFeJGpBSk8yXCK.",
       "name": "Admin User",
       "role": "SUPER_ADMIN",
       "createdAt": "2024-01-01T00:00:00.000Z",
@@ -713,7 +713,46 @@
   ],
   "Job": [],
   "Application": [],
-  "Lead": [],
+  "Lead": [
+    {
+      "id": "test_1768209553210",
+      "name": "Test User",
+      "email": "test@example.com",
+      "message": "Test message",
+      "type": "CONTACT",
+      "createdAt": "2026-01-12T09:19:13.210Z",
+      "updatedAt": "2026-01-12T09:26:05.374Z",
+      "status": "QUALIFIED",
+      "notes": "",
+      "isRead": true
+    },
+    {
+      "id": "u4ekldib6",
+      "createdAt": "2026-01-12T09:20:36.824Z",
+      "updatedAt": "2026-01-12T09:26:11.664Z",
+      "name": "API Test User",
+      "email": "api-test@example.com",
+      "message": "This is a test from the script",
+      "type": "CONTACT",
+      "status": "CLOSED",
+      "isRead": true,
+      "notes": ""
+    },
+    {
+      "id": "p1xa4c4hq",
+      "createdAt": "2026-01-12T09:24:26.232Z",
+      "updatedAt": "2026-01-12T09:25:16.677Z",
+      "name": "Piyush",
+      "email": "kamleshlovewanshi2000@gmail.com",
+      "phone": "9926853565",
+      "company": "Triazo Tech Stack",
+      "message": "I want to build the website with mobile application.",
+      "type": "CONTACT",
+      "status": "CONTACTED",
+      "isRead": true,
+      "notes": "Done"
+    }
+  ],
   "Media": [],
   "Settings": [
     {
@@ -991,6 +1030,108 @@
       "page": "/contact",
       "count": 2,
       "date": "2026-01-10T18:30:00.000Z"
+    },
+    {
+      "id": "igp6q1nb8",
+      "createdAt": "2026-01-12T09:06:14.247Z",
+      "updatedAt": "2026-01-12T09:06:18.091Z",
+      "page": "/",
+      "count": 5,
+      "date": "2026-01-11T18:30:00.000Z"
+    },
+    {
+      "id": "e0eoraaqv",
+      "createdAt": "2026-01-12T09:06:19.984Z",
+      "updatedAt": "2026-01-12T09:48:58.608Z",
+      "page": "/about",
+      "count": 2122,
+      "date": "2026-01-11T18:30:00.000Z"
+    },
+    {
+      "id": "7ciog3jx8",
+      "createdAt": "2026-01-12T09:11:32.630Z",
+      "updatedAt": "2026-01-12T09:28:48.109Z",
+      "page": "/contact",
+      "count": 1068,
+      "date": "2026-01-11T18:30:00.000Z"
+    },
+    {
+      "id": "atr0zj3nb",
+      "createdAt": "2026-01-12T09:22:19.327Z",
+      "updatedAt": "2026-01-12T09:53:23.058Z",
+      "page": "/projects",
+      "count": 353,
+      "date": "2026-01-11T18:30:00.000Z"
+    },
+    {
+      "id": "x7cuf4zmi",
+      "createdAt": "2026-01-12T09:53:24.885Z",
+      "updatedAt": "2026-01-12T11:27:48.495Z",
+      "page": "/blog",
+      "count": 12558,
+      "date": "2026-01-11T18:30:00.000Z"
+    }
+  ],
+  "TechBadge": [
+    {
+      "id": "aws",
+      "name": "AWS Certified",
+      "icon": "☁️",
+      "color": "from-orange-500 to-yellow-500"
+    },
+    {
+      "id": "gcp",
+      "name": "Google Cloud",
+      "icon": "🌐",
+      "color": "from-blue-500 to-green-500"
+    },
+    {
+      "id": "python",
+      "name": "Python Expert",
+      "icon": "🐍",
+      "color": "from-blue-400 to-yellow-400"
+    },
+    {
+      "id": "react",
+      "name": "React Master",
+      "icon": "⚛️",
+      "color": "from-cyan-400 to-blue-500"
+    },
+    {
+      "id": "node",
+      "name": "Node.js Pro",
+      "icon": "🟢",
+      "color": "from-green-500 to-green-700"
+    },
+    {
+      "id": "aiml",
+      "name": "AI/ML Specialist",
+      "icon": "🤖",
+      "color": "from-purple-500 to-pink-500"
+    },
+    {
+      "id": "docker",
+      "name": "Docker Expert",
+      "icon": "🐳",
+      "color": "from-blue-600 to-cyan-500"
+    },
+    {
+      "id": "k8s",
+      "name": "Kubernetes",
+      "icon": "☸️",
+      "color": "from-blue-500 to-indigo-600"
+    },
+    {
+      "id": "flutter",
+      "name": "Flutter Dev",
+      "icon": "💙",
+      "color": "from-blue-400 to-cyan-300"
+    },
+    {
+      "id": "swift",
+      "name": "Swift / iOS",
+      "icon": "🍎",
+      "color": "from-orange-500 to-red-500"
     }
   ]
 }

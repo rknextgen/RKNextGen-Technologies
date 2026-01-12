@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Section } from '@/components/ui/Section';
 
@@ -10,19 +10,23 @@ interface TechBadge {
     color: string;
 }
 
-const techStack: TechBadge[] = [
-    { name: 'AWS Certified', icon: '☁️', color: 'from-orange-500 to-yellow-500' },
-    { name: 'Google Cloud', icon: '🌐', color: 'from-blue-500 to-green-500' },
-    { name: 'Python Expert', icon: '🐍', color: 'from-blue-400 to-yellow-400' },
-    { name: 'React Master', icon: '⚛️', color: 'from-cyan-400 to-blue-500' },
-    { name: 'Node.js Pro', icon: '🟢', color: 'from-green-500 to-green-700' },
-    { name: 'AI/ML Specialist', icon: '🤖', color: 'from-purple-500 to-pink-500' },
-    { name: 'Docker Expert', icon: '🐳', color: 'from-blue-600 to-cyan-500' },
-    { name: 'Kubernetes', icon: '☸️', color: 'from-blue-500 to-indigo-600' },
-];
-
 export const TechBadges = () => {
-    const [hoveredBadge, setHoveredBadge] = useState<string | null>(null);
+    const [badges, setBadges] = useState<TechBadge[]>([]);
+
+    useEffect(() => {
+        const fetchBadges = async () => {
+            try {
+                const response = await fetch('/api/tech-badges');
+                if (response.ok) {
+                    const data = await response.json();
+                    setBadges(data);
+                }
+            } catch (error) {
+                console.error('Failed to fetch badges:', error);
+            }
+        };
+        fetchBadges();
+    }, []);
 
     return (
         <Section className="bg-navy/30">
@@ -41,16 +45,14 @@ export const TechBadges = () => {
             </div>
 
             <div className="flex flex-wrap justify-center gap-8 md:gap-12">
-                {techStack.map((tech, index) => (
+                {badges.map((tech, index) => (
                     <motion.div
                         key={tech.name}
                         initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: index * 0.05 }}
-                        className="relative group"
-                        onMouseEnter={() => setHoveredBadge(tech.name)}
-                        onMouseLeave={() => setHoveredBadge(null)}
+                        className="relative group flex flex-col items-center"
                     >
                         {/* Hologram badge */}
                         <motion.div
@@ -76,17 +78,27 @@ export const TechBadges = () => {
                             />
                         </motion.div>
 
-                        {/* Tooltip */}
-                        {hoveredBadge === tech.name && (
-                            <motion.div
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                className="absolute -bottom-10 left-1/2 -translate-x-1/2 px-4 py-2 rounded-lg bg-navy border border-cyan/30 text-cyan text-sm font-medium whitespace-nowrap shadow-[0_0_20px_rgba(0,194,217,0.3)] z-10"
-                            >
-                                {tech.name}
-                                <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-navy border-l border-t border-cyan/30 rotate-45" />
-                            </motion.div>
-                        )}
+                        {/* Label - Always visible */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.2 + index * 0.05 }}
+                            className="mt-2 z-20"
+                        >
+                            <div className={`p-[1px] rounded-lg bg-gradient-to-r ${tech.color} shadow-[0_0_15px_rgba(0,0,0,0.5)]`}>
+                                <div className="bg-navy/90 backdrop-blur-sm rounded-lg px-4 py-2 relative">
+                                    <span className={`bg-gradient-to-r ${tech.color} bg-clip-text text-transparent font-bold whitespace-nowrap`}>
+                                        {tech.name}
+                                    </span>
+                                    {/* Arrow */}
+                                    <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2">
+                                        <div className={`w-full h-full bg-gradient-to-r ${tech.color} rotate-45`} />
+                                        <div className="absolute inset-[1px] bg-navy rotate-45" />
+                                    </div>
+                                </div>
+                            </div>
+                        </motion.div>
                     </motion.div>
                 ))}
             </div>

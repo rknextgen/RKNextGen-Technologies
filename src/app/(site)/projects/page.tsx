@@ -27,19 +27,19 @@ export default async function ProjectsPage({
 
     return (
         <div className="pt-20">
-            <Section className="text-center">
-                <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-                    Our <span className="text-cyan">Work</span>
-                </h1>
-                <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
-                    Showcasing our expertise through impactful projects and digital innovations.
-                </p>
-
-                {/* Categories */}
-                <CategoryFilter categories={categories} baseUrl="/projects" />
-            </Section>
-
             <Section>
+                <div className="text-center">
+                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Our <span className="text-cyan">Work</span>
+                    </h1>
+                    <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12">
+                        Showcasing our expertise through impactful projects and digital innovations.
+                    </p>
+
+                    {/* Categories */}
+                    <CategoryFilter categories={categories} baseUrl="/projects" />
+                </div>
+
                 {/* Results count */}
                 <div className="text-center mb-8">
                     <p className="text-gray-400">
